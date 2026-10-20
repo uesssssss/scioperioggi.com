@@ -73,7 +73,7 @@ export function initZoom() {
   S.kFit = T0.k;
   S.zoom = d3zoom()
     .scaleExtent([S.kFit * 0.98, S.kFit * 10])
-    .translateExtent([[-D.GEO.w * 0.8, -D.GEO.h * 0.6], [D.GEO.w * 1.8, D.GEO.h * 1.6]])
+    .translateExtent([[-D.GEO.w * 4, -D.GEO.h * 3], [D.GEO.w * 5, D.GEO.h * 4]])
     .on('start', () => { clearTimeout(reTimer); document.body.classList.add('moving'); })
     .on('zoom', (e) => { S.T = e.transform; if (e.sourceEvent) { S.touched = true; S.movedByUser = true; } render(); })
     .on('end', () => {
