@@ -1,0 +1,1638 @@
+{
+ "updated": "2026-10-20T06:58:00+02:00",
+ "shareUrl": "https://scioperioggi.com/",
+ "sources": {
+  "mit": {
+   "pub": "Ministero dei Trasporti",
+   "kind": "Fonte ufficiale",
+   "label": "Prospetto degli scioperi, aggiornato al 20 ottobre",
+   "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
+  },
+  "sky": {
+   "pub": "Sky TG24",
+   "kind": "Articolo",
+   "label": "Il calendario delle proteste di ottobre",
+   "url": "https://tg24.sky.it/cronaca/2026/10/01/scioperi-ottobre-2026"
+  },
+  "qn": {
+   "pub": "Quotidiano Nazionale",
+   "kind": "Articolo",
+   "label": "Le date di ottobre, settore per settore",
+   "url": "https://www.quotidiano.net/economia/scioperi-ottobre-2026-calendari-quando-5dc1862b"
+  },
+  "nazioneMassa": {
+   "pub": "La Nazione",
+   "kind": "Articolo",
+   "label": "Lo sciopero nel giorno del processo",
+   "url": "https://www.lanazione.it/massa-carrara/cronaca/propal-a-processo-sciopero-generale-8b363776"
+  },
+  "nazioneLivorno": {
+   "pub": "La Nazione",
+   "kind": "Articolo",
+   "label": "Usb lancia la giornata del 30 ottobre",
+   "url": "https://www.lanazione.it/cronaca/letame-davanti-al-deposito-eni-e-distributori-di-carburanti-bloccati-caro-benzina-a-livorno-esplode-la-protesta-a474074a"
+  },
+  "usbPorti": {
+   "pub": "USB",
+   "kind": "Comunicato",
+   "label": "La giornata dei portuali contro la guerra",
+   "url": "https://www.usb.it/leggi-notizia/il-3-ottobre-a-genova-assemblea-generale-operativa-per-costruire-assieme-ai-lavoratori-portuali-la-mobilitazione-internazionale-del-30-ottobre-in-tutto-il-paese-1434.pdf"
+  },
+  "qfSicilia": {
+   "pub": "QuiFinanza",
+   "kind": "Articolo",
+   "label": "Perché si fermano i camion",
+   "url": "https://quifinanza.it/info-utili/autotrasportatori-sicilia-16-20-ottobre-2026/1017277/"
+  },
+  "laSicilia": {
+   "pub": "La Sicilia",
+   "kind": "Articolo",
+   "label": "Il caro gasolio e le perdite delle aziende",
+   "url": "https://www.lasicilia.it/news/cronaca/3077176/il-caro-carburante-ferma-gli-autotrasportatori-siciliani-cinque-giorni-di-fermo-e-perdite-fino-a-900-euro-al-giorno.html"
+  },
+  "mfSicilia": {
+   "pub": "MF Milano Finanza",
+   "kind": "Articolo",
+   "label": "Il prezzo del gasolio sull'isola",
+   "url": "https://www.milanofinanza.it/news/tir-la-sicilia-si-ferma-2718924"
+  },
+  "ivgTpl": {
+   "pub": "IVG",
+   "kind": "Articolo",
+   "label": "Le ragioni dei lavoratori",
+   "url": "https://www.ivg.it/2026/10/tpl-il-19-ottobre-sciopero-dei-lavoratori-contro-la-privatizzazione-vogliamo-risposte/"
+  },
+  "portsEurope": {
+   "pub": "PortSEurope",
+   "kind": "Articolo",
+   "label": "Lo stop sospeso a settembre",
+   "url": "https://www.portseurope.com/naples-salerno-ports-strike-suspended-ahead-of-september-16-talks/"
+  },
+  "studentiScuola": {
+   "pub": "Studenti.it",
+   "kind": "Articolo",
+   "label": "Le richieste del Sisa",
+   "url": "https://www.studenti.it/scioperi-scuola-ottobre-2026-date.html"
+  },
+  "qfOttobre": {
+   "pub": "QuiFinanza",
+   "kind": "Articolo",
+   "label": "La giornata più difficile del mese",
+   "url": "https://quifinanza.it/info-utili/scioperi/scioperi-ottobre-2026/1017441/"
+  },
+  "qfAir": {
+   "pub": "QuiFinanza",
+   "kind": "Articolo",
+   "label": "Le linee di AIR Campania",
+   "url": "https://quifinanza.it/info-utili/scioperi/scioperi-28-settembre-4-ottobre-2026/1017076/"
+  },
+  "notizieFoggia": {
+   "pub": "Notizie.it",
+   "kind": "Articolo",
+   "label": "Le fasce dello sciopero a Foggia",
+   "url": "https://www.notizie.it/scioperi-ottobre-2026-calendario-completo/"
+  },
+  "espressoMilano": {
+   "pub": "L'Espresso",
+   "kind": "Articolo",
+   "label": "Il racconto del corteo",
+   "url": "https://lespresso.it/c/attualita/2026/10/7/milano-corteo-liceo-einstein-ragazzo-aggredito-blocco-studentesco-casapound-video/65183"
+  },
+  "ansaViaMaestra": {
+   "pub": "ANSA",
+   "kind": "Articolo",
+   "label": "L'annuncio della manifestazione del 17",
+   "url": "https://www.ansa.it/sito/notizie/topnews/2026/09/12/via-maestra-manifestazione-nazionale-il-17-ottobre-a-roma_97ec457d-6396-4e96-a19e-e5c93e642c20.html"
+  },
+  "newsistruzioneViaMaestra": {
+   "pub": "NewsIstruzione",
+   "kind": "Articolo",
+   "label": "Orari e piazze del corteo",
+   "url": "https://www.newsistruzione.it/2026/10/06/17-ottobre-roma-manifestazione-via-maestra"
+  },
+  "amd24": {
+   "pub": "Antimafia Duemila",
+   "kind": "Articolo",
+   "label": "L'appuntamento del 24 ottobre",
+   "url": "https://antimafiaduemila.com/home/ci-vediamo-a/eventi/roma-24-ottobre-fuori-litalia-dalla-guerra-corteo-nazionale-per-la-pace"
+  },
+  "studentiOttobre": {
+   "pub": "Studenti.it",
+   "kind": "Articolo",
+   "label": "I tre venerdì di sciopero nella scuola",
+   "url": "https://www.studenti.it/scuola-scioperi-ottobre-2026-date-lezioni.html"
+  },
+  "openFff": {
+   "pub": "Open",
+   "kind": "Articolo",
+   "label": "Lo sciopero per il clima del 16 ottobre",
+   "url": "https://www.open.online/2026/09/09/fridays-for-future-torna-lo-sciopero-per-il-clima-la-nostra-vita-e-sempre-piu-difficile-in-questo-continente/"
+  },
+  "indipendenteStudenti": {
+   "pub": "L'Indipendente",
+   "kind": "Articolo",
+   "label": "Occupazioni e cortei verso il 16 ottobre",
+   "url": "https://www.lindipendente.online/2026/10/13/la-protesta-degli-studenti-cresce-in-tutta-italia-si-moltiplicano-occupazioni-e-cortei/"
+  },
+  "telenostraAvellino": {
+   "pub": "Telenostra",
+   "kind": "Articolo",
+   "label": "Il corteo degli studenti irpini",
+   "url": "https://www.telenostra.tv/avellino-corteo-studentesco/"
+  },
+  "scuolamagLivorno": {
+   "pub": "Scuola Mag",
+   "kind": "Articolo",
+   "label": "Sciopero e corteo a Livorno",
+   "url": "https://www.scuolamag.it/notizie-dal-mim/scuola-a-rischio-il-16-ottobre-confermato-lo-sciopero-nazionale-stop-alle-lezioni-e-piazze-in-piazza-per-il-clima/"
+  },
+  "newsistruzioneRoma16": {
+   "pub": "NewsIstruzione",
+   "kind": "Articolo",
+   "label": "Il corteo degli studenti a Roma",
+   "url": "https://www.newsistruzione.it/2026/10/14/sciopero-scuola-roma-16-ottobre"
+  },
+  "voceFff16": {
+   "pub": "La Voce d'Italia",
+   "kind": "Articolo",
+   "label": "Le piazze di Fridays for Future",
+   "url": "https://lavoceditalia.com/2026/10/13/836525/clima-fridays-for-future-torna-in-piazza-venerdi-cortei-in-tutta-italia/"
+  },
+  "adigeCatania": {
+   "pub": "L'Adige (ANSA)",
+   "kind": "Articolo",
+   "label": "Le imprese di Catania si fermano fino al 22",
+   "url": "https://www.ladige.it/attualita/confindustria-etnea-autotrasporto-siciliano-fermo-dal-16-al-22-ottobre-edsb6pmq"
+  },
+  "marittimiNavi": {
+   "pub": "Marittimi&Navi",
+   "kind": "Articolo",
+   "label": "Portuali e trasporti verso il 30 ottobre",
+   "url": "https://www.marittimienavi.net/2026/10/16/portuali-e-trasporti-uniti-contro-guerra-e-carovita-il-30-ottobre-sciopero-generale-e-mobilitazione-internazionale/"
+  },
+  "romaMobilitaTorpignattara": {
+   "pub": "Roma Servizi per la Mobilità",
+   "kind": "Fonte ufficiale",
+   "label": "Il percorso e le deviazioni dei bus",
+   "url": "https://romamobilita.it/infomobilita/domenica-corteo-al-prenestino-la-viabilita/"
+  },
+  "lacapitaleWeekend": {
+   "pub": "La Capitale",
+   "kind": "Articolo",
+   "label": "Cortei e strade chiuse nel fine settimana",
+   "url": "https://www.lacapitale.it/articolo/roma-weekend-cortei-half-marathon-17-18-ottobre-strade-chiuse-bus"
+  },
+  "trasportoEuropaSud": {
+   "pub": "TrasportoEuropa",
+   "kind": "Articolo",
+   "label": "Le proteste dei camionisti al Sud",
+   "url": "https://www.trasportoeuropa.it/notizie/autotrasporto/proseguono-le-proteste-al-sud-e-fiap-scrive-ai-prefetti"
+  },
+  "ansaCgil20": {
+   "pub": "ANSA",
+   "kind": "Articolo",
+   "label": "L'annuncio di Landini dal palco di Roma",
+   "url": "https://ansa.it/sito/notizie/politica/2026/10/17/cgil-in-piazza-siamo-100mila-il-20-novembre-sciopero-generale_c4547ea9-f018-4e78-adda-67ad7af8e7d0.html"
+  },
+  "tecnicaScuola20": {
+   "pub": "La Tecnica della Scuola",
+   "kind": "Articolo",
+   "label": "Gli scioperi in arrivo dopo la manovra",
+   "url": "https://www.tecnicadellascuola.it/legge-di-bilancio-sindacati-pronti-ascioperare-per-il-momento-ci-sono-lannuncio-di-landini-cgil-e-usb-per-il-20-novembre-il-4-dicembre-sciopero-di-cub-unicobas-e-sindacalismo-di-base"
+  },
+  "sardiniaBrotzu": {
+   "pub": "Sardinia Post",
+   "kind": "Articolo",
+   "label": "Lo sciopero degli infermieri al Brotzu",
+   "url": "https://www.sardiniapost.it/salute-e-sanita/carenza-di-infermieri-e-oss-nursing-up-annuncia-sciopero-al-brotzu-di-cagliari-per-il-21-ottobre-lavorare-cosi-non-e-umanamente-sostenibile/"
+  },
+  "usbTrasporti30": {
+   "pub": "USB",
+   "kind": "Comunicato",
+   "label": "I trasporti confermati nello sciopero del 30",
+   "url": "https://trasporti.usb.it/leggi-notizia/30-ottobre-sciopero-generale-contro-la-guerra-il-carovita-per-il-lavoro-per-il-diritto-di-sciopero-1913.html"
+  },
+  "orizzonte4dic": {
+   "pub": "Orizzonte Insegnanti",
+   "kind": "Articolo",
+   "label": "Il calendario di novembre e dicembre",
+   "url": "https://orizzonteinsegnanti.it/scioperi-nel-settore-scuola-e-pubblico-impiego-il-calendario-delle-mobilitazioni-per-novembre-e-dicembre-2026/"
+  },
+  "livesiciliaUltimatum": {
+   "pub": "LiveSicilia",
+   "kind": "Articolo",
+   "label": "Il fermo può durare fino al 27 ottobre",
+   "url": "https://livesicilia.it/autotrasportatori-sicilia-ultimatum-salvini/"
+  },
+  "indipendenteSud": {
+   "pub": "L'Indipendente",
+   "kind": "Articolo",
+   "label": "I blocchi dei camion nel Sud",
+   "url": "https://www.lindipendente.online/2026/10/18/lo-sciopero-degli-autotrasportatori-sta-bloccando-il-sud-italia/"
+  },
+  "ilpostPuglia": {
+   "pub": "Il Post",
+   "kind": "Articolo",
+   "label": "Le proteste di camionisti e agricoltori in Puglia",
+   "url": "https://ilpost.it/2026/10/15/puglia-proteste-autotrasportatori-blocchi-stradali"
+  },
+  "virgilioSettimana": {
+   "pub": "Virgilio Notizie",
+   "kind": "Articolo",
+   "label": "Gli scioperi dal 19 al 25 ottobre",
+   "url": "https://www.virgilio.it/notizie/scioperi-settimana-dal-19-al-25-ottobre-2026-si-fermano-bus-treni-e-sanita-le-citta-coinvolte-1789624"
+  },
+  "qfSettimana": {
+   "pub": "QuiFinanza",
+   "kind": "Articolo",
+   "label": "Gli scioperi della settimana",
+   "url": "https://quifinanza.it/info-utili/scioperi/sciopero-19-25-ottobre-2026/1020098/"
+  },
+  "primocanaleAmt": {
+   "pub": "Primocanale",
+   "kind": "Articolo",
+   "label": "Le quattro ore di sciopero Amt a Genova",
+   "url": "https://www.primocanale.it/cronaca/72677-genova-sciopero-amt-21-ottobre-ugl-orari.html"
+  },
+  "espressoSud": {
+   "pub": "L'Espresso",
+   "kind": "Articolo",
+   "label": "I presidi dei camionisti in tutto il Sud",
+   "url": "https://lespresso.it/c/attualita/2026/10/19/proteste-autotrasportatori-blocchi-autostradali-sud-italia-campania-calabria-sicilia-basilicata-puglia/65365"
+  },
+  "ilpostPuglia19": {
+   "pub": "Il Post",
+   "kind": "Articolo",
+   "label": "Chi blocca la Puglia e cosa chiede",
+   "url": "https://www.ilpost.it/2026/10/19/protesta-agricoltori-camionisti-poggioimperiale-candela-cerignola-puglia/"
+  },
+  "tgcomDate": {
+   "pub": "Tgcom24",
+   "kind": "Articolo",
+   "label": "Le prossime date di piazza",
+   "url": "https://www.tgcom24.mediaset.it/cronaca/caro-vita-sciopero-generale-calendario-30-ottobre-20-novembre-proteste-scuola_117818509-202602k.shtml"
+  },
+  "sicilianewsMilano": {
+   "pub": "Sicilianews24",
+   "kind": "Articolo",
+   "label": "Il tavolo di Milano con gli autotrasportatori",
+   "url": "https://www.sicilianews24.it/autotrasportatori-siciliani-schifani-tratta-con-salvini-se-firma-gli-impegni-revochiamo-il-fermo-845185.html"
+  },
+  "cgilModena20": {
+   "pub": "Cgil Modena",
+   "kind": "Sindacato",
+   "label": "La proclamazione dello sciopero del 20 novembre",
+   "url": "https://www.cgilmodena.it/20-novembre-2026-cgil-proclama-lo-sciopero-generale/"
+  }
+ },
+ "events": [
+  {
+   "id": "proteste-camion-puglia",
+   "title": "Blocchi dei camion in Puglia",
+   "kicker": "Fermo",
+   "group": "merci",
+   "mode": "camion",
+   "modeLabel": "Autotrasporto",
+   "scope": "Regionale",
+   "place": "Puglia: Poggio Imperiale, Candela, Cerignola",
+   "lat": 41.4622,
+   "lon": 15.5446,
+   "regions": [
+    "Puglia"
+   ],
+   "start": "2026-10-11T00:00:00+02:00",
+   "end": "2026-10-20T23:59:00+02:00",
+   "hours": "Da domenica 11. Partenze dei camion verso il Nord sospese fino a martedì 20.",
+   "who": "Autotrasportatori e agricoltori, senza una proclamazione sindacale",
+   "summary": "Camionisti e agricoltori protestano contro il caro gasolio con presidi e blocchi sulle strade: in Puglia se ne contano 30-35. I più grandi sono al casello di Poggio Imperiale sull'A14 e allo svincolo di Candela, dove vengono fermati i camion in arrivo dalla Campania. In molti distributori del Sud manca il carburante.",
+   "note": "Non c'è una data di fine: i manifestanti dicono di voler restare a oltranza. Il tavolo con il governo è fissato per martedì 20.",
+   "src": [
+    "ilpostPuglia19",
+    "ilpostPuglia",
+    "indipendenteSud"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "amtab-bari",
+   "title": "Sciopero dei bus AMTAB",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "bus",
+   "modeLabel": "Bus urbani",
+   "scope": "Locale",
+   "place": "Bari",
+   "lat": 41.1171,
+   "lon": 16.8719,
+   "regions": [
+    "Puglia"
+   ],
+   "start": "2026-10-12T08:30:00+02:00",
+   "end": "2026-10-12T12:30:00+02:00",
+   "hours": "4 ore, dalle 8:30 alle 12:30",
+   "who": "Filt-Cgil, Fit-Cisl, Uiltrasporti, Ugl Autoferrotranvieri",
+   "proclaimed": "2026-09-22",
+   "summary": "Quattro ore di stop per il personale di AMTAB, l'azienda del trasporto urbano di Bari. Lo hanno proclamato le segreterie territoriali dei quattro sindacati di categoria.",
+   "src": [
+    "mit",
+    "sky"
+   ]
+  },
+  {
+   "id": "sbb-cargo",
+   "title": "Sciopero dei treni merci SBB Cargo",
+   "kicker": "Sciopero",
+   "group": "merci",
+   "mode": "treno",
+   "modeLabel": "Treni merci",
+   "scope": "Nazionale",
+   "place": "Tutta Italia",
+   "regions": "all",
+   "start": "2026-10-13T06:00:00+02:00",
+   "end": "2026-10-14T05:59:00+02:00",
+   "hours": "24 ore, dalle 6 di martedì 13 alle 5:59 di mercoledì 14",
+   "who": "Orsa Ferrovie",
+   "proclaimed": "2026-10-01",
+   "summary": "Si ferma per 24 ore il personale di SBB Cargo Italia, impresa che trasporta merci su rotaia. I treni passeggeri non sono coinvolti.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-14T06:57:00+02:00"
+  },
+  {
+   "id": "toscana-generale",
+   "title": "Sciopero generale in Toscana",
+   "kicker": "Sciopero e presidio",
+   "group": "generale",
+   "mode": "generale",
+   "modeLabel": "Tutti i settori",
+   "scope": "Regionale",
+   "place": "Toscana, presidio a Massa",
+   "lat": 44.0354,
+   "lon": 10.1393,
+   "regions": [
+    "Toscana"
+   ],
+   "start": "2026-10-14T00:00:00+02:00",
+   "end": "2026-10-14T23:59:00+02:00",
+   "hours": "Tutta la giornata. Treni fermi dalle 9:01 alle 17; bus e tram per 4 ore, con orari decisi azienda per azienda.",
+   "note": "Esclusi il trasporto aereo e la tramvia di Firenze.",
+   "who": "Cgil Toscana",
+   "proclaimed": "2026-09-17",
+   "summary": "La Cgil Toscana ferma per un giorno il lavoro pubblico e privato nel giorno dell'udienza a Massa contro 36 manifestanti, alcuni dei quali sindacalisti, rinviati a giudizio per aver occupato i binari durante una protesta per la Palestina il 3 ottobre 2025. Lo slogan è «La protesta non è reato». Davanti al tribunale di Massa è previsto un grande presidio; è atteso anche il segretario generale Maurizio Landini.",
+   "src": [
+    "nazioneMassa",
+    "mit",
+    "sky"
+   ],
+   "checked": "2026-10-14T06:57:00+02:00"
+  },
+  {
+   "id": "ataf-foggia",
+   "title": "Sciopero dei bus ATAF",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "bus",
+   "modeLabel": "Bus urbani",
+   "scope": "Locale",
+   "place": "Foggia",
+   "lat": 41.4622,
+   "lon": 15.5446,
+   "regions": [
+    "Puglia"
+   ],
+   "start": "2026-10-15T00:00:00+02:00",
+   "end": "2026-10-15T23:59:00+02:00",
+   "hours": "24 ore. Sciopero dalle 0 alle 5:30, dalle 8:30 alle 12:30 e dalle 15:30 a fine servizio.",
+   "who": "Filt-Cgil, Faisa-Cisal",
+   "proclaimed": "2026-09-14",
+   "summary": "Giornata di sciopero per il personale di ATAF, l'azienda dei bus di Foggia. Nelle fasce di garanzia, al mattino presto e all'ora di pranzo, i bus viaggiano.",
+   "src": [
+    "mit",
+    "notizieFoggia"
+   ],
+   "checked": "2026-10-15T06:55:00+02:00"
+  },
+  {
+   "id": "porti-tirreno",
+   "title": "Sciopero nei porti di Napoli e Salerno",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "nave",
+   "modeLabel": "Porti",
+   "scope": "Territoriale",
+   "place": "Napoli e Salerno",
+   "lat": 40.838,
+   "lon": 14.262,
+   "regions": [
+    "Campania"
+   ],
+   "start": "2026-10-15T00:00:00+02:00",
+   "end": "2026-10-16T23:59:00+02:00",
+   "hours": "48 ore, dalla mezzanotte di giovedì 15 alle 23:59 di venerdì 16",
+   "note": "Restano garantiti i collegamenti con le isole, l'assistenza ai passeggeri, le merci deperibili e gli animali vivi.",
+   "who": "Filt-Cgil, Fit-Cisl, Uiltrasporti",
+   "proclaimed": "2026-09-17",
+   "summary": "Due giorni di sciopero nel sistema portuale del Tirreno centrale: imprese portuali, Autorità di sistema e società del terminal passeggeri. I traghetti per le isole viaggiano. Uno stop analogo, previsto a settembre, era stato sospeso dopo la convocazione di un incontro sulla vertenza per i finanziamenti.",
+   "src": [
+    "mit",
+    "portsEurope"
+   ],
+   "checked": "2026-10-16T06:58:00+02:00"
+  },
+  {
+   "id": "arriva-bergamo",
+   "title": "Sciopero dei bus Arriva a Bergamo",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "bus",
+   "modeLabel": "Bus",
+   "scope": "Locale",
+   "place": "Bergamo",
+   "lat": 45.6983,
+   "lon": 9.6773,
+   "regions": [
+    "Lombardia"
+   ],
+   "start": "2026-10-16T00:00:00+02:00",
+   "end": "2026-10-16T23:59:00+02:00",
+   "hours": "24 ore",
+   "who": "Filt-Cgil, Fit-Cisl, Uiltrasporti, Faisa-Cisal e Rsu",
+   "proclaimed": "2026-09-24",
+   "summary": "Giornata di sciopero per il personale di Arriva Italia nell'unità produttiva di Bergamo. Gli orari garantiti li comunica l'azienda.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-16T06:58:00+02:00"
+  },
+  {
+   "id": "easyjet",
+   "title": "Sciopero degli equipaggi easyJet",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "aereo",
+   "modeLabel": "Aerei",
+   "scope": "Nazionale",
+   "place": "Tutta Italia",
+   "regions": "all",
+   "start": "2026-10-16T00:00:00+02:00",
+   "end": "2026-10-16T23:59:00+02:00",
+   "hours": "24 ore, dalle 0 alle 23:59",
+   "note": "Come in ogni sciopero aereo, sono garantiti i voli in partenza dalle 7 alle 10 e dalle 18 alle 21.",
+   "who": "Usb Lavoro Privato",
+   "proclaimed": "2026-09-14",
+   "summary": "Si ferma per 24 ore il personale di volo di easyJet. Possibili cancellazioni e ritardi: prima di andare in aeroporto conviene controllare lo stato del volo con la compagnia.",
+   "src": [
+    "mit",
+    "sky",
+    "qfOttobre"
+   ],
+   "checked": "2026-10-16T06:58:00+02:00"
+  },
+  {
+   "id": "poste-air-cargo",
+   "title": "Sciopero dei piloti di Poste Air Cargo",
+   "kicker": "Sciopero",
+   "group": "merci",
+   "mode": "aereo",
+   "modeLabel": "Cargo aereo",
+   "scope": "Nazionale",
+   "place": "Tutta Italia",
+   "regions": "all",
+   "start": "2026-10-16T00:00:00+02:00",
+   "end": "2026-10-16T23:59:00+02:00",
+   "hours": "24 ore",
+   "who": "Filt-Cgil, Fit-Cisl, Uiltrasporti, Anpac, Anp",
+   "proclaimed": "2026-09-30",
+   "summary": "Ventiquattro ore di sciopero per i piloti di Poste Air Cargo, la compagnia aerea del gruppo Poste Italiane che trasporta posta e pacchi.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-16T06:58:00+02:00"
+  },
+  {
+   "id": "scuola-sisa",
+   "title": "Sciopero nazionale della scuola",
+   "kicker": "Sciopero",
+   "group": "servizi",
+   "mode": "scuola",
+   "modeLabel": "Scuola",
+   "scope": "Nazionale",
+   "place": "Tutta Italia",
+   "regions": "all",
+   "start": "2026-10-16T00:00:00+02:00",
+   "end": "2026-10-16T23:59:00+02:00",
+   "hours": "Tutta la giornata",
+   "who": "Sisa, Sindacato indipendente scuola e ambiente",
+   "summary": "Sciopero di un giorno per docenti, dirigenti e personale ATA, di ruolo e precari. Tra le richieste del sindacato ci sono nuove regole di pensionamento per docenti e ATA con invalidità civile e almeno 30 anni di servizio e contributi. Le lezioni possono saltare in base alle adesioni: conviene controllare le comunicazioni della scuola.",
+   "src": [
+    "studentiScuola",
+    "sky",
+    "studentiOttobre"
+   ],
+   "checked": "2026-10-16T06:58:00+02:00"
+  },
+  {
+   "id": "studenti-clima-16-ottobre",
+   "title": "Studenti in piazza per il clima",
+   "kicker": "Corteo",
+   "group": "cortei",
+   "mode": "corteo",
+   "modeLabel": "Cortei",
+   "scope": "Nazionale",
+   "place": "Tutta Italia",
+   "regions": "all",
+   "start": "2026-10-16T00:00:00+02:00",
+   "end": "2026-10-16T23:59:00+02:00",
+   "hours": "In mattinata, con orari diversi città per città",
+   "who": "Fridays for Future, collettivi e associazioni studentesche",
+   "summary": "Venerdì 16 Fridays for Future torna in piazza con lo sciopero per il clima, e i collettivi studenteschi lo indicano come giornata nazionale di sciopero degli studenti. Sono annunciati cortei nelle principali città. Lo stesso giorno c'è lo sciopero della scuola proclamato dal Sisa.",
+   "src": [
+    "openFff",
+    "indipendenteStudenti"
+   ],
+   "checked": "2026-10-16T06:58:00+02:00"
+  },
+  {
+   "id": "tua-abruzzo",
+   "title": "Sciopero dei bus tra Chieti e Pescara",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "bus",
+   "modeLabel": "Bus",
+   "scope": "Provinciale",
+   "place": "Chieti e Pescara",
+   "lat": 42.4618,
+   "lon": 14.2161,
+   "regions": [
+    "Abruzzo"
+   ],
+   "start": "2026-10-16T00:00:00+02:00",
+   "end": "2026-10-16T23:59:00+02:00",
+   "hours": "4 ore, con orari diversi da azienda ad azienda",
+   "who": "Fit-Cisl, Uil, Faisa-Cisal",
+   "proclaimed": "2026-10-06",
+   "summary": "Quattro ore di sciopero sulle linee di TUA e delle aziende private dei bacini di Chieti e Pescara: Cerella, Di Fonzo, Di Giacomo, Dicarlobus, La Panoramica e Napoleone.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-16T06:58:00+02:00"
+  },
+  {
+   "id": "fermo-calabria",
+   "title": "Fermo dei camion in Calabria",
+   "kicker": "Fermo",
+   "group": "merci",
+   "mode": "camion",
+   "modeLabel": "Autotrasporto",
+   "scope": "Regionale",
+   "place": "Calabria",
+   "lat": 38.9098,
+   "lon": 16.5877,
+   "regions": [
+    "Calabria"
+   ],
+   "start": "2026-10-16T00:01:00+02:00",
+   "end": "2026-10-20T23:59:59+02:00",
+   "hours": "5 giorni, dalle 0:01 di venerdì 16 alla mezzanotte di martedì 20",
+   "who": "Fedralog Calabria",
+   "proclaimed": "2026-09-30",
+   "summary": "Cinque giorni di fermo per le imprese di autotrasporto merci per conto terzi aderenti a Fedralog in Calabria. Arriva dopo un primo fermo dell'autotrasporto calabrese, dal 9 al 13 ottobre.",
+   "src": [
+    "mit",
+    "qn",
+    "indipendenteSud",
+    "espressoSud"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00",
+   "note": "In Calabria ci sono anche blocchi stradali: al porto di Gioia Tauro, agli svincoli dell'A2 e, dal 19, sulla statale 18 a Fuscaldo. Il tavolo con il governo è martedì 20."
+  },
+  {
+   "id": "fermo-sicilia",
+   "title": "Fermo dei camion in Sicilia",
+   "kicker": "Fermo",
+   "group": "merci",
+   "mode": "camion",
+   "modeLabel": "Autotrasporto",
+   "scope": "Regionale",
+   "place": "Sicilia",
+   "lat": 37.5079,
+   "lon": 15.083,
+   "regions": [
+    "Sicilia"
+   ],
+   "start": "2026-10-16T00:01:00+02:00",
+   "end": "2026-10-20T23:59:59+02:00",
+   "hours": "5 giorni, dalle 0:01 di venerdì 16 alla mezzanotte di martedì 20",
+   "who": "Comitato autotrasportatori siciliani",
+   "proclaimed": "2026-09-28",
+   "summary": "Gli autotrasportatori siciliani lasciano i camion nei piazzali e non ritirano i semirimorchi nei porti dell'isola. Protestano contro il gasolio intorno a 2,40 euro al litro e contro i ritardi nei pagamenti del Sea Modal Shift, l'incentivo che sostiene il trasporto delle merci via mare. Non sono previsti presidi.",
+   "src": [
+    "qfSicilia",
+    "laSicilia",
+    "mfSicilia",
+    "mit",
+    "adigeCatania",
+    "trasportoEuropaSud",
+    "livesiciliaUltimatum",
+    "indipendenteSud",
+    "sicilianewsMilano",
+    "espressoSud"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00",
+   "note": "Martedì 20 a Milano c'è il tavolo con il ministro dei Trasporti. Il comitato siciliano revoca il fermo solo se il ministro firma impegni scritti; altrimenti il fermo va avanti fino al 27 ottobre. I porti dell'isola sono bloccati, tranne il transito di frutta e verdura sullo Stretto. Le imprese di Confindustria Catania hanno annunciato un fermo fino a giovedì 22."
+  },
+  {
+   "id": "corteo-avellino-16",
+   "title": "Corteo degli studenti ad Avellino",
+   "kicker": "Corteo",
+   "group": "cortei",
+   "mode": "corteo",
+   "modeLabel": "Corteo",
+   "scope": "Cittadino",
+   "place": "Avellino",
+   "lat": 40.9146,
+   "lon": 14.7906,
+   "regions": [
+    "Campania"
+   ],
+   "start": "2026-10-16T09:00:00+02:00",
+   "end": "2026-10-16T13:00:00+02:00",
+   "hours": "Ritrovo alle 9 in piazza San Ciro",
+   "who": "Studenti delle scuole dell'Irpinia",
+   "summary": "Corteo provinciale degli studenti per le vie del centro. Le richieste riguardano classi meno affollate, edifici e trasporti adeguati, libri meno cari e stipendi più alti per docenti e personale ATA. Alla fine è previsto un incontro con Provincia e Comune.",
+   "src": [
+    "telenostraAvellino"
+   ],
+   "checked": "2026-10-16T06:58:00+02:00"
+  },
+  {
+   "id": "corteo-livorno-16",
+   "title": "Sciopero e corteo della scuola a Livorno",
+   "kicker": "Sciopero e presidio",
+   "group": "cortei",
+   "mode": "corteo",
+   "modeLabel": "Corteo",
+   "scope": "Provinciale",
+   "place": "Livorno",
+   "lat": 43.5485,
+   "lon": 10.3106,
+   "regions": [
+    "Toscana"
+   ],
+   "start": "2026-10-16T09:00:00+02:00",
+   "end": "2026-10-16T13:00:00+02:00",
+   "hours": "Ritrovo alle 9 in piazza Cavour",
+   "who": "Usb Pubblico impiego scuola",
+   "summary": "Sciopero provinciale del personale scolastico legato alla giornata per il clima. Il corteo parte da piazza Cavour, attraversa la città e si chiude con un'assemblea pubblica nell'oasi urbana di via Goito.",
+   "src": [
+    "scuolamagLivorno"
+   ],
+   "checked": "2026-10-16T06:58:00+02:00"
+  },
+  {
+   "id": "corteo-studenti-roma-16",
+   "title": "Corteo degli studenti a Roma",
+   "kicker": "Corteo",
+   "group": "cortei",
+   "mode": "corteo",
+   "modeLabel": "Corteo",
+   "scope": "Cittadino",
+   "place": "Roma",
+   "lat": 41.905,
+   "lon": 12.47,
+   "regions": [
+    "Lazio"
+   ],
+   "start": "2026-10-16T09:30:00+02:00",
+   "end": "2026-10-16T13:00:00+02:00",
+   "hours": "Partenza alle 9:30 da piazza Cavour. Ritrovo del collettivo Osa alle 8:30 in piazza dell'Esquilino.",
+   "note": "L'orario di fine è indicativo: gli organizzatori non lo hanno comunicato.",
+   "who": "Coordinamento studentesco autonomo romano; collettivo Osa",
+   "summary": "Venerdì 16, giorno di sciopero della scuola, gli studenti romani sfilano da piazza Cavour. Chiedono più fondi per l'edilizia scolastica e l'educazione sessuo-affettiva obbligatoria, e contestano l'ultimo decreto Scuola. Il corteo arriva dopo settimane di occupazioni in diversi licei.",
+   "src": [
+    "newsistruzioneRoma16"
+   ],
+   "checked": "2026-10-16T06:58:00+02:00"
+  },
+  {
+   "id": "fff-torino-16",
+   "title": "Corteo per il clima a Torino",
+   "kicker": "Corteo",
+   "group": "cortei",
+   "mode": "corteo",
+   "modeLabel": "Corteo",
+   "scope": "Cittadino",
+   "place": "Torino",
+   "lat": 45.069,
+   "lon": 7.693,
+   "regions": [
+    "Piemonte"
+   ],
+   "start": "2026-10-16T09:30:00+02:00",
+   "end": "2026-10-16T13:00:00+02:00",
+   "hours": "Partenza alle 9:30 da Palazzo Nuovo",
+   "note": "L'orario di fine è indicativo: gli organizzatori non lo hanno comunicato.",
+   "who": "Fridays for Future Torino, con studenti delle superiori e universitari",
+   "summary": "A Torino lo sciopero per il clima di venerdì 16 parte con un corteo da Palazzo Nuovo. Lo slogan della giornata è \"Questo clima non è vita\". Al centro ci sono caldo estremo, verde urbano e politiche energetiche.",
+   "src": [
+    "voceFff16"
+   ],
+   "checked": "2026-10-16T06:58:00+02:00"
+  },
+  {
+   "id": "fff-milano-16",
+   "title": "Presidio per il clima a Milano",
+   "kicker": "Corteo",
+   "group": "cortei",
+   "mode": "corteo",
+   "modeLabel": "Presidio",
+   "scope": "Cittadino",
+   "place": "Milano",
+   "lat": 45.4675,
+   "lon": 9.19,
+   "regions": [
+    "Lombardia"
+   ],
+   "start": "2026-10-16T17:30:00+02:00",
+   "end": "2026-10-16T19:30:00+02:00",
+   "hours": "Alle 17:30 in piazza della Scala",
+   "note": "L'orario di fine è indicativo: gli organizzatori non lo hanno comunicato.",
+   "who": "Fridays for Future Milano",
+   "summary": "A Milano Fridays for Future si ritrova nel tardo pomeriggio di venerdì 16 in piazza della Scala, nella giornata nazionale di sciopero per il clima.",
+   "src": [
+    "voceFff16"
+   ],
+   "checked": "2026-10-16T06:58:00+02:00"
+  },
+  {
+   "id": "via-maestra-roma",
+   "title": "Manifestazione della Via Maestra a Roma",
+   "kicker": "Corteo",
+   "group": "cortei",
+   "mode": "corteo",
+   "modeLabel": "Corteo",
+   "scope": "Nazionale",
+   "place": "Roma",
+   "lat": 41.9028,
+   "lon": 12.4964,
+   "regions": [
+    "Lazio"
+   ],
+   "start": "2026-10-17T13:30:00+02:00",
+   "end": "2026-10-17T18:00:00+02:00",
+   "hours": "Dalle 13:30 alle 18 circa. Partenza da piazza della Repubblica, arrivo in piazza del Popolo",
+   "note": "Il corteo passa per via Barberini, via Sistina e Trinità dei Monti: strade chiuse e bus deviati nel centro. Roma Mobilità attende circa 15mila persone.",
+   "who": "Rete La Via Maestra: Cgil e oltre cento associazioni",
+   "proclaimed": "2026-09-12",
+   "summary": "Manifestazione nazionale a Roma promossa dalla Cgil e dalle associazioni della rete La Via Maestra. Il corteo parte da piazza della Repubblica e arriva in piazza del Popolo. Tra i temi indicati: Costituzione, pace, lavoro, salari, welfare e fisco.",
+   "src": [
+    "ansaViaMaestra",
+    "newsistruzioneViaMaestra",
+    "lacapitaleWeekend"
+   ],
+   "checked": "2026-10-17T06:57:00+02:00"
+  },
+  {
+   "id": "corteo-circo-massimo-17",
+   "title": "Corteo dal Circo Massimo a Piramide",
+   "kicker": "Corteo",
+   "group": "cortei",
+   "mode": "corteo",
+   "modeLabel": "Corteo",
+   "scope": "Cittadino",
+   "place": "Roma",
+   "lat": 41.8861,
+   "lon": 12.4853,
+   "regions": [
+    "Lazio"
+   ],
+   "start": "2026-10-17T15:00:00+02:00",
+   "end": "2026-10-17T18:00:00+02:00",
+   "hours": "Dalle 15 alle 18. Ritrovo in piazzale Ugo La Malfa",
+   "who": "Organizzatori non indicati dalla fonte",
+   "summary": "Secondo corteo del sabato a Roma, con circa mille persone attese. Parte dal Circo Massimo e percorre viale Aventino e piazza Albania fino a piazzale Ostiense.",
+   "src": [
+    "lacapitaleWeekend"
+   ],
+   "checked": "2026-10-17T06:57:00+02:00"
+  },
+  {
+   "id": "corteo-torpignattara-18",
+   "title": "Corteo a Tor Pignattara",
+   "kicker": "Corteo",
+   "group": "cortei",
+   "mode": "corteo",
+   "modeLabel": "Corteo",
+   "scope": "Cittadino",
+   "place": "Roma, Tor Pignattara",
+   "lat": 41.8789,
+   "lon": 12.5395,
+   "regions": [
+    "Lazio"
+   ],
+   "start": "2026-10-18T18:00:00+02:00",
+   "end": "2026-10-18T20:00:00+02:00",
+   "hours": "Dalle 18 alle 20. Da Parco Sangalli a piazza Malatesta",
+   "who": "Organizzatori non indicati dalla fonte",
+   "summary": "Corteo di quartiere con circa 250 persone attese. Passa per via di Tor Pignattara, via Casilina e via della Marranella. Possibili deviazioni per i bus 81, 104, 105, 409, 412 e 545.",
+   "src": [
+    "romaMobilitaTorpignattara"
+   ],
+   "checked": "2026-10-18T06:57:00+02:00"
+  },
+  {
+   "id": "ausiliari-ospedali-sicilia-19",
+   "title": "Sciopero dei servizi ausiliari negli ospedali siciliani",
+   "kicker": "Sciopero",
+   "group": "servizi",
+   "mode": "generale",
+   "modeLabel": "Sanità",
+   "scope": "Regionale",
+   "place": "Sicilia, aziende ospedaliere",
+   "lat": 38.1157,
+   "lon": 13.3615,
+   "regions": [
+    "Sicilia"
+   ],
+   "start": "2026-10-19T00:00:00+02:00",
+   "end": "2026-10-19T23:59:00+02:00",
+   "hours": "Tutta la giornata di lunedì 19",
+   "who": "Uiltucs",
+   "summary": "Si ferma per un giorno il personale dei servizi ausiliari nelle aziende sanitarie e ospedaliere della Sicilia.",
+   "note": "Le fonti non indicano le singole strutture coinvolte.",
+   "src": [
+    "virgilioSettimana",
+    "qfSettimana"
+   ],
+   "checked": "2026-10-19T06:56:00+02:00"
+  },
+  {
+   "id": "blocchi-camion-campania-basilicata",
+   "title": "Blocchi dei camion in Campania e Basilicata",
+   "kicker": "Fermo",
+   "group": "merci",
+   "mode": "camion",
+   "modeLabel": "Autotrasporto",
+   "scope": "Interregionale",
+   "place": "Campania e Basilicata: A1, A2, porto di Napoli, Potenza",
+   "lat": 40.8518,
+   "lon": 14.2681,
+   "regions": [
+    "Campania",
+    "Basilicata"
+   ],
+   "start": "2026-10-19T00:00:00+02:00",
+   "end": "2026-10-20T23:59:00+02:00",
+   "hours": "Da lunedì 19, blocchi a singhiozzo",
+   "who": "Autotrasportatori e agricoltori, senza una proclamazione sindacale",
+   "summary": "La protesta contro il caro gasolio si allarga. In Campania ci sono rallentamenti ai caselli dell'A1 tra Napoli Nord, Caserta, Palma Campania, Sarno e Nocera, e a Caserta Sud la strada è occupata. Bloccati anche il varco Bausan del porto di Napoli e lo svincolo di Eboli sull'A2. In Basilicata ci sono presidi a Potenza Est, Potenza Ovest e nella zona industriale di Tito.",
+   "note": "Non c'è una data di fine. Il tavolo con il governo è fissato per martedì 20.",
+   "src": [
+    "espressoSud"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "bis-roma",
+   "title": "Sciopero di Bus International Service",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "bus",
+   "modeLabel": "Bus",
+   "scope": "Locale",
+   "place": "Roma",
+   "lat": 41.9028,
+   "lon": 12.4964,
+   "regions": [
+    "Lazio"
+   ],
+   "start": "2026-10-19T08:30:00+02:00",
+   "end": "2026-10-19T12:30:00+02:00",
+   "hours": "4 ore, dalle 8:30 alle 12:30",
+   "who": "Usb Lavoro Privato",
+   "proclaimed": "2026-10-09",
+   "summary": "Quattro ore di sciopero per il personale di Bus International Service, azienda di trasporto su gomma di Roma.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-19T06:56:00+02:00"
+  },
+  {
+   "id": "tpl-savona",
+   "title": "Sciopero dei bus TPL Linea",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "bus",
+   "modeLabel": "Bus",
+   "scope": "Locale",
+   "place": "Provincia di Savona",
+   "lat": 44.3091,
+   "lon": 8.4772,
+   "regions": [
+    "Liguria"
+   ],
+   "start": "2026-10-19T10:15:00+02:00",
+   "end": "2026-10-19T14:15:00+02:00",
+   "hours": "4 ore, dalle 10:15 alle 14:15",
+   "who": "Filt-Cgil, Fit-Cisl, Uiltrasporti, Ugl, Faisa-Cisal, Sial Cobas e Rsu",
+   "proclaimed": "2026-10-07",
+   "summary": "I lavoratori di TPL Linea, il trasporto pubblico della provincia di Savona, scioperano contro la privatizzazione parziale del servizio: il piano affida a privati il 10,5% delle corse, con il passaggio di 35 lavoratori e 14 autobus, ed esternalizza l'officina. I sindacati dicono di essere pronti a fare un passo indietro se il piano cambia.",
+   "src": [
+    "ivgTpl",
+    "mit"
+   ],
+   "checked": "2026-10-19T06:56:00+02:00"
+  },
+  {
+   "id": "arriva-udine",
+   "title": "Sciopero dei bus Arriva Udine",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "bus",
+   "modeLabel": "Bus",
+   "scope": "Locale",
+   "place": "Udine",
+   "lat": 46.0711,
+   "lon": 13.2346,
+   "regions": [
+    "Friuli-Venezia Giulia"
+   ],
+   "start": "2026-10-20T15:00:00+02:00",
+   "end": "2026-10-20T23:59:00+02:00",
+   "hours": "9 ore, dalle 15 alle 24",
+   "who": "Asi-Au, Associazione sindacale indipendente",
+   "proclaimed": "2026-10-01",
+   "summary": "Nove ore di sciopero, dal pomeriggio a fine giornata, per il personale di Arriva Udine.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "brotzu-cagliari-21",
+   "title": "Sciopero degli infermieri al Brotzu",
+   "kicker": "Sciopero",
+   "group": "servizi",
+   "mode": "generale",
+   "modeLabel": "Sanità",
+   "scope": "Locale",
+   "place": "Cagliari, ospedale Brotzu",
+   "lat": 39.2468,
+   "lon": 9.0925,
+   "regions": [
+    "Sardegna"
+   ],
+   "start": "2026-10-21T00:00:00+02:00",
+   "end": "2026-10-21T23:59:00+02:00",
+   "hours": "24 ore",
+   "who": "Nursing Up",
+   "summary": "Ventiquattro ore di sciopero per infermieri e OSS dell'ospedale Brotzu di Cagliari. Il sindacato denuncia la carenza di personale nei reparti di degenza, dove segnala due infermieri per turno con più di 20 pazienti.",
+   "src": [
+    "sardiniaBrotzu"
+   ],
+   "checked": "2026-10-18T06:57:00+02:00"
+  },
+  {
+   "id": "amt-genova-21",
+   "title": "Sciopero dei bus AMT a Genova",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "bus",
+   "modeLabel": "Bus",
+   "scope": "Territoriale",
+   "place": "Genova",
+   "lat": 44.4056,
+   "lon": 8.9463,
+   "regions": [
+    "Liguria"
+   ],
+   "start": "2026-10-21T10:30:00+02:00",
+   "end": "2026-10-21T15:30:00+02:00",
+   "hours": "4 ore. Bus urbani e ferrovia Genova-Casella dalle 11:30 alle 15:30; bus provinciali dalle 10:30 alle 14:30",
+   "who": "Ugl Autoferrotranvieri e Rsa",
+   "proclaimed": "2026-10-19",
+   "summary": "Quattro ore di sciopero per il personale Amt, dopo due aggressioni ad autisti e verificatori in due giorni. Il sindacato chiede più sicurezza a bordo.",
+   "src": [
+    "mit",
+    "primocanaleAmt"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "fse-bari",
+   "title": "Sciopero serale di Ferrovie del Sud Est",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "treno",
+   "modeLabel": "Treni e bus",
+   "scope": "Locale",
+   "place": "Bari",
+   "lat": 41.1171,
+   "lon": 16.8719,
+   "regions": [
+    "Puglia"
+   ],
+   "start": "2026-10-23T19:45:00+02:00",
+   "end": "2026-10-23T23:45:00+02:00",
+   "hours": "4 ore, dalle 19:45 alle 23:45",
+   "who": "Filt-Cgil, Fit-Cisl, Uiltrasporti, Faisa-Cisal",
+   "proclaimed": "2026-10-08",
+   "summary": "Quattro ore di sciopero serale per gli operatori di esercizio di Ferrovie del Sud Est e per il personale che gestisce le autolinee. Coinvolge treni e bus FSE.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "corteo-universitari-roma-24",
+   "title": "Corteo degli universitari a Roma",
+   "kicker": "Corteo",
+   "group": "cortei",
+   "mode": "corteo",
+   "modeLabel": "Corteo",
+   "scope": "Cittadino",
+   "place": "Roma, da piazza della Libertà a piazza Risorgimento",
+   "lat": 41.9067,
+   "lon": 12.4669,
+   "regions": [
+    "Lazio"
+   ],
+   "start": "2026-10-24T10:30:00+02:00",
+   "end": "2026-10-24T13:00:00+02:00",
+   "hours": "Partenza alle 10:30 da piazza della Libertà",
+   "note": "L'orario di fine è indicativo: gli organizzatori non lo hanno comunicato.",
+   "who": "Azione Universitaria",
+   "summary": "Corteo dell'organizzazione studentesca Azione Universitaria, da piazza della Libertà a piazza Risorgimento, con lo slogan \"Sblocchiamo tutto\".",
+   "src": [
+    "tgcomDate"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "corteo-pace-roma-24",
+   "title": "Corteo contro la guerra a Roma",
+   "kicker": "Corteo",
+   "group": "cortei",
+   "mode": "corteo",
+   "modeLabel": "Corteo",
+   "scope": "Nazionale",
+   "place": "Roma",
+   "lat": 41.9028,
+   "lon": 12.4964,
+   "regions": [
+    "Lazio"
+   ],
+   "start": "2026-10-24T14:00:00+02:00",
+   "end": "2026-10-24T19:00:00+02:00",
+   "hours": "Appuntamento alle 14 in piazza della Repubblica",
+   "note": "L'orario di fine è indicativo: gli organizzatori non lo hanno comunicato.",
+   "who": "Campagna \"Fuori l'Italia dalla guerra\"",
+   "summary": "Corteo nazionale a Roma promosso dalla campagna \"Fuori l'Italia dalla guerra\", contro il riarmo e le spese militari e in solidarietà con il popolo palestinese. Il ritrovo è in piazza della Repubblica.",
+   "src": [
+    "amd24"
+   ],
+   "checked": "2026-10-18T06:57:00+02:00"
+  },
+  {
+   "id": "gsa-a1",
+   "title": "Sciopero antincendio sull'A1",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "strada",
+   "modeLabel": "Autostrade",
+   "scope": "Interregionale",
+   "place": "A1 tra Incisa e Sasso Marconi",
+   "lat": 44.03,
+   "lon": 11.23,
+   "regions": [
+    "Toscana",
+    "Emilia-Romagna"
+   ],
+   "start": "2026-10-27T08:00:00+01:00",
+   "end": "2026-10-27T23:59:00+01:00",
+   "hours": "Due turni di 4 ore: dalle 8 alle 12 e dalle 20 alle 24",
+   "who": "Sgb",
+   "proclaimed": "2026-10-05",
+   "summary": "Scioperano gli addetti di GSA alla sorveglianza antincendio dell'autostrada A1, nel tratto tra Incisa e Sasso Marconi.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "air-campania",
+   "title": "Sciopero dei bus AIR Campania",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "bus",
+   "modeLabel": "Bus extraurbani",
+   "scope": "Locale",
+   "place": "Napoli",
+   "lat": 40.8518,
+   "lon": 14.2681,
+   "regions": [
+    "Campania"
+   ],
+   "start": "2026-10-28T08:00:00+01:00",
+   "end": "2026-10-28T16:00:00+01:00",
+   "hours": "8 ore, dalle 8 alle 16",
+   "who": "Filt-Cgil, Fit-Cisl, Uiltrasporti, Ugl, Faisa-Cisal",
+   "proclaimed": "2026-10-01",
+   "summary": "Otto ore di sciopero per AIR Campania, l'azienda dei bus extraurbani che collega Napoli con Avellino, Benevento, Caserta e Salerno.",
+   "src": [
+    "mit",
+    "qfAir"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "trenitalia-er",
+   "title": "Sciopero Trenitalia in Emilia-Romagna",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "treno",
+   "modeLabel": "Treni",
+   "scope": "Regionale",
+   "place": "Bologna, Reggio Emilia e Rimini",
+   "lat": 44.4949,
+   "lon": 11.3426,
+   "regions": [
+    "Emilia-Romagna"
+   ],
+   "start": "2026-10-28T21:00:00+01:00",
+   "end": "2026-10-29T21:00:00+01:00",
+   "hours": "24 ore, dalle 21 di mercoledì 28 alle 21 di giovedì 29",
+   "who": "Filt-Cgil, Fit-Cisl, Uiltrasporti, Orsa Ferrovie",
+   "proclaimed": "2026-10-06",
+   "summary": "Sciopero di 24 ore del personale della divisione Customer Operations di Trenitalia nelle sedi di Bologna, Reggio Emilia (stazione storica e AV Mediopadana) e Rimini.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "la-lucente-bologna",
+   "title": "Sciopero La Lucente all'aeroporto di Bologna",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "aereo",
+   "modeLabel": "Aerei",
+   "scope": "Aeroporto",
+   "place": "Aeroporto di Bologna",
+   "lat": 44.5354,
+   "lon": 11.2887,
+   "regions": [
+    "Emilia-Romagna"
+   ],
+   "start": "2026-10-29T12:00:00+01:00",
+   "end": "2026-10-29T16:00:00+01:00",
+   "hours": "4 ore, dalle 12 alle 16",
+   "who": "Filcams-Cgil, Uiltrasporti",
+   "proclaimed": "2026-10-16",
+   "summary": "Quattro ore di sciopero per il personale della società La Lucente che lavora all'aeroporto Marconi di Bologna.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "generale-30-ottobre",
+   "title": "Sciopero generale del 30 ottobre",
+   "kicker": "Sciopero generale",
+   "group": "generale",
+   "mode": "generale",
+   "modeLabel": "Tutti i settori",
+   "scope": "Nazionale",
+   "place": "Tutta Italia",
+   "regions": "all",
+   "day": "2026-10-30",
+   "start": "2026-10-29T21:00:00+01:00",
+   "end": "2026-10-30T23:59:00+01:00",
+   "hours": "Tutta la giornata di venerdì 30. Treni fermi dalle 21 di giovedì 29 alle 20:59 di venerdì; autostrade dalle 22 di giovedì.",
+   "note": "Per i treni regionali valgono le fasce di garanzia dei giorni feriali, dalle 6 alle 9 e dalle 18 alle 21. La Commissione di garanzia ha chiesto di escludere i trasporti, perché il 30 cade nel periodo di franchigia dei Santi. Il 15 ottobre Usb ha confermato lo sciopero anche nei trasporti: prima di partire controlla gli avvisi delle aziende.",
+   "who": "Usb; Usi-Cit con una proclamazione separata",
+   "proclaimed": "2026-10-06",
+   "summary": "Venerdì 30 si sommano due scioperi generali. Usb ferma tutti i settori pubblici e privati, treni compresi, e lo lega alla giornata internazionale di lotta dei portuali contro la guerra e il riarmo, con manifestazioni annunciate in tutte le città. Usi-Cit sciopera contro la guerra e le spese militari, scuola compresa, ma lascia fuori aerei, treni, bus e navi.",
+   "src": [
+    "mit",
+    "usbPorti",
+    "nazioneLivorno",
+    "sky",
+    "usbTrasporti30"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "aeroporto-firenze-30",
+   "title": "Sciopero all'aeroporto di Firenze",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "aereo",
+   "modeLabel": "Aerei",
+   "scope": "Aeroporto",
+   "place": "Aeroporto di Firenze",
+   "lat": 43.81,
+   "lon": 11.2051,
+   "regions": [
+    "Toscana"
+   ],
+   "start": "2026-10-30T00:00:00+01:00",
+   "end": "2026-10-30T23:59:00+01:00",
+   "hours": "24 ore, dalle 00:00 alle 23:59",
+   "who": "Usb Lavoro privato",
+   "proclaimed": "2026-10-12",
+   "summary": "Giornata di sciopero per il personale di Toscana Aeroporti, GH Toscana e Consulta allo scalo di Firenze Peretola. Cade lo stesso giorno dello sciopero generale del 30 ottobre. Lo stesso sciopero riguarda anche l'aeroporto di Pisa.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "aeroporto-pisa-30",
+   "title": "Sciopero all'aeroporto di Pisa",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "aereo",
+   "modeLabel": "Aerei",
+   "scope": "Aeroporto",
+   "place": "Aeroporto di Pisa",
+   "lat": 43.6839,
+   "lon": 10.3927,
+   "regions": [
+    "Toscana"
+   ],
+   "start": "2026-10-30T00:00:00+01:00",
+   "end": "2026-10-30T23:59:00+01:00",
+   "hours": "24 ore, dalle 00:00 alle 23:59",
+   "who": "Usb Lavoro privato",
+   "proclaimed": "2026-10-12",
+   "summary": "Giornata di sciopero per il personale di Toscana Aeroporti, GH Toscana e Consulta allo scalo di Pisa. Cade lo stesso giorno dello sciopero generale del 30 ottobre. Lo stesso sciopero riguarda anche l'aeroporto di Firenze.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "porti-usb-30",
+   "title": "Sciopero nei porti del 30 ottobre",
+   "kicker": "Sciopero",
+   "group": "merci",
+   "mode": "nave",
+   "modeLabel": "Porti",
+   "scope": "Nazionale",
+   "place": "Tutta Italia",
+   "regions": "all",
+   "start": "2026-10-30T00:00:00+01:00",
+   "end": "2026-10-30T23:59:00+01:00",
+   "hours": "24 ore, tutta la giornata di venerdì 30",
+   "who": "Usb Lavoro privato",
+   "proclaimed": "2026-10-16",
+   "summary": "Si fermano per 24 ore i lavoratori dei porti, nel giorno dello sciopero generale di Usb. Il sindacato la presenta come giornata internazionale di lotta dei portuali contro la guerra e il riarmo, con adesioni in più paesi.",
+   "src": [
+    "mit",
+    "marittimiNavi"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "enav-bari",
+   "title": "Sciopero ENAV all'aeroporto di Bari",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "aereo",
+   "modeLabel": "Aerei",
+   "scope": "Aeroporto",
+   "place": "Aeroporto di Bari",
+   "lat": 41.1389,
+   "lon": 16.7606,
+   "regions": [
+    "Puglia"
+   ],
+   "start": "2026-11-06T13:00:00+01:00",
+   "end": "2026-11-06T17:00:00+01:00",
+   "hours": "4 ore, dalle 13 alle 17",
+   "who": "Fast-Confsal (Rsa)",
+   "proclaimed": "2026-09-07",
+   "summary": "Quattro ore di sciopero del personale ENAV, la società che gestisce il controllo del traffico aereo, all'aeroporto di Bari. Possibili ritardi sui voli del pomeriggio.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "sbb-cargo-10-novembre",
+   "title": "Sciopero notturno dei treni merci SBB Cargo",
+   "kicker": "Sciopero",
+   "group": "merci",
+   "mode": "treno",
+   "modeLabel": "Treni merci",
+   "scope": "Nazionale",
+   "place": "Tutta Italia",
+   "regions": "all",
+   "start": "2026-11-10T21:00:00+01:00",
+   "end": "2026-11-11T04:59:00+01:00",
+   "hours": "8 ore, dalle 21 di martedì 10 alle 4:59 di mercoledì 11",
+   "who": "Filt-Cgil",
+   "proclaimed": "2026-10-16",
+   "summary": "Otto ore di sciopero notturno per il personale di SBB Cargo Italia, impresa che trasporta merci su rotaia. I treni passeggeri non sono coinvolti.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "atm-milano-13-novembre",
+   "title": "Sciopero di metro, tram e bus ATM",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "bus",
+   "modeLabel": "Metro, tram e bus",
+   "scope": "Provinciale",
+   "place": "Milano e provincia",
+   "lat": 45.4642,
+   "lon": 9.19,
+   "regions": [
+    "Lombardia"
+   ],
+   "start": "2026-11-13T00:00:00+01:00",
+   "end": "2026-11-13T23:59:00+01:00",
+   "hours": "24 ore, con modalità diverse. Le fasce garantite saranno comunicate da ATM.",
+   "who": "Al-Cobas",
+   "proclaimed": "2026-10-13",
+   "summary": "Sciopero di 24 ore per il personale delle società del gruppo ATM a Milano e provincia. Metro, tram e bus possono fermarsi fuori dalle fasce di garanzia.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "atvo",
+   "title": "Sciopero dei bus ATVO",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "bus",
+   "modeLabel": "Bus",
+   "scope": "Locale",
+   "place": "Veneto orientale",
+   "lat": 45.6335,
+   "lon": 12.565,
+   "regions": [
+    "Veneto"
+   ],
+   "start": "2026-11-13T00:00:00+01:00",
+   "end": "2026-11-13T23:59:00+01:00",
+   "hours": "24 ore",
+   "who": "Sgb, Fast Mobilità",
+   "proclaimed": "2026-10-08",
+   "summary": "Giornata di sciopero per ATVO, l'azienda dei bus del Veneto orientale con sede a San Donà di Piave.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "amtab-bari-14-novembre",
+   "title": "Sciopero di 24 ore dei bus AMTAB",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "bus",
+   "modeLabel": "Bus urbani",
+   "scope": "Locale",
+   "place": "Bari",
+   "lat": 41.1171,
+   "lon": 16.8719,
+   "regions": [
+    "Puglia"
+   ],
+   "start": "2026-11-14T00:00:00+01:00",
+   "end": "2026-11-14T23:59:00+01:00",
+   "hours": "24 ore, tutta la giornata di sabato 14",
+   "who": "Filt-Cgil, Fit-Cisl, Uiltrasporti, Ugl Autoferrotranvieri",
+   "proclaimed": "2026-10-16",
+   "summary": "Giornata intera di sciopero per il personale di AMTAB, l'azienda del trasporto urbano di Bari. Arriva dopo lo stop di quattro ore del 12 ottobre.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "anm-napoli",
+   "title": "Sciopero ANM a Napoli",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "bus",
+   "modeLabel": "Metro e bus",
+   "scope": "Locale",
+   "place": "Napoli",
+   "lat": 40.8518,
+   "lon": 14.2681,
+   "regions": [
+    "Campania"
+   ],
+   "start": "2026-11-16T11:00:00+01:00",
+   "end": "2026-11-16T15:00:00+01:00",
+   "hours": "4 ore, dalle 11 alle 15",
+   "who": "Filt-Cgil, Fit-Cisl, Uiltrasporti, Ugl Fna, Faisa-Cisal",
+   "proclaimed": "2026-10-14",
+   "summary": "Quattro ore di sciopero per ANM, l'azienda di metropolitana, bus e funicolari di Napoli.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00",
+   "note": "Il prospetto ministeriale ora indica lunedì 16 novembre, non più il 16 dicembre."
+  },
+  {
+   "id": "generale-cgil-20-novembre",
+   "title": "Sciopero generale Cgil del 20 novembre",
+   "kicker": "Sciopero generale",
+   "group": "generale",
+   "mode": "generale",
+   "modeLabel": "Tutti i settori",
+   "scope": "Nazionale",
+   "place": "Tutta Italia",
+   "regions": "all",
+   "start": "2026-11-20T00:00:00+01:00",
+   "end": "2026-11-20T23:59:00+01:00",
+   "hours": "Tutta la giornata di lavoro di venerdì 20. Orari per treni e trasporti non ancora comunicati.",
+   "note": "Proclamato il 19 ottobre per tutti i settori pubblici e privati, appalti compresi. Le modalità per i trasporti non sono ancora note.",
+   "who": "Cgil",
+   "summary": "La Cgil ha annunciato uno sciopero generale per venerdì 20 novembre. Lo ha detto il segretario Maurizio Landini dal palco della manifestazione del 17 ottobre a Roma. Il sindacato chiede salari e pensioni più alti e più risorse per sanità, scuola e casa. Lo stesso giorno è in programma uno sciopero europeo degli studenti.",
+   "src": [
+    "mit",
+    "ansaCgil20",
+    "cgilModena20",
+    "tecnicaScuola20"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00",
+   "proclaimed": "2026-10-19"
+  },
+  {
+   "id": "treni-cub-sgb",
+   "title": "Sciopero nazionale dei treni",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "treno",
+   "modeLabel": "Treni",
+   "scope": "Nazionale",
+   "place": "Tutta Italia",
+   "regions": "all",
+   "start": "2026-11-20T21:00:00+01:00",
+   "end": "2026-11-21T23:59:00+01:00",
+   "hours": "Treni dalle 21 di venerdì 20 alle 20 di sabato 21; alcune aziende locali per tutto il turno di sabato.",
+   "who": "Cub Trasporti, Sgb Ferrovie",
+   "proclaimed": "2026-10-07",
+   "summary": "Sciopero nazionale del personale delle imprese ferroviarie, treni merci compresi. Sabato 21 si fermano anche alcune aziende di trasporto locale, tra cui GTT a Torino, EAV in Campania, Ferrovie del Sud Est e Ferrotramviaria in Puglia, Trentino Trasporti, SAD in Alto Adige e Ferrovie della Calabria.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "enav-nazionale",
+   "title": "Sciopero nazionale ENAV",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "aereo",
+   "modeLabel": "Aerei",
+   "scope": "Nazionale",
+   "place": "Tutta Italia",
+   "regions": "all",
+   "start": "2026-11-21T13:00:00+01:00",
+   "end": "2026-11-21T17:00:00+01:00",
+   "hours": "4 ore, dalle 13 alle 17",
+   "who": "Filt-Cgil, Ugl Trasporto aereo",
+   "proclaimed": "2026-09-23",
+   "summary": "Quattro ore di sciopero nazionale del personale ENAV, la società del controllo del traffico aereo. Possibili ritardi e cancellazioni in tutti gli aeroporti.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "sicuritalia-venezia",
+   "title": "Sciopero della vigilanza all'aeroporto di Venezia",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "aereo",
+   "modeLabel": "Aerei",
+   "scope": "Aeroporto",
+   "place": "Venezia Marco Polo",
+   "lat": 45.5053,
+   "lon": 12.3519,
+   "regions": [
+    "Veneto"
+   ],
+   "start": "2026-11-22T00:00:00+01:00",
+   "end": "2026-11-22T23:59:00+01:00",
+   "hours": "24 ore",
+   "who": "Fisascat-Cisl",
+   "proclaimed": "2026-10-05",
+   "summary": "Ventiquattro ore di sciopero per il personale di Sicuritalia Ivri, società di vigilanza, all'aeroporto Marco Polo di Venezia.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "enav-malpensa",
+   "title": "Sciopero ENAV a Malpensa",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "aereo",
+   "modeLabel": "Aerei",
+   "scope": "Aeroporto",
+   "place": "Milano Malpensa",
+   "lat": 45.6306,
+   "lon": 8.7281,
+   "regions": [
+    "Lombardia"
+   ],
+   "start": "2026-11-22T00:01:00+01:00",
+   "end": "2026-11-22T23:59:00+01:00",
+   "hours": "24 ore",
+   "who": "Fast-Confsal (Rsa)",
+   "proclaimed": "2026-09-30",
+   "summary": "Giornata di sciopero del personale ENAV all'aeroporto di Milano Malpensa.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "generale-4-dicembre",
+   "title": "Sciopero generale del 4 dicembre",
+   "kicker": "Sciopero generale",
+   "group": "generale",
+   "mode": "generale",
+   "modeLabel": "Tutti i settori",
+   "scope": "Nazionale",
+   "place": "Tutta Italia",
+   "regions": "all",
+   "day": "2026-12-04",
+   "start": "2026-12-03T21:00:00+01:00",
+   "end": "2026-12-04T23:59:00+01:00",
+   "hours": "Tutta la giornata di venerdì 4. Treni dalle 21 di giovedì 3 alle 21 di venerdì; autostrade dalle 22 alle 22; bus e metro con modalità decise città per città.",
+   "note": "Per i treni regionali valgono le fasce di garanzia dei giorni feriali, dalle 6 alle 9 e dalle 18 alle 21. Per i vigili del fuoco lo sciopero dura 4 ore: dalle 9 alle 13 per il personale turnista.",
+   "who": "Cub, Adl Varese, Sgb, Cib-Unicobas, Sbm, Sgc, Si Cobas; aderiscono Al Cobas e Lmo",
+   "proclaimed": "2026-09-27",
+   "summary": "I sindacati di base proclamano uno sciopero generale di tutte le categorie, pubbliche e private, per l'intera giornata.",
+   "src": [
+    "mit",
+    "orizzonte4dic"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "aviation-roma",
+   "title": "Sciopero di Aviation Services a Fiumicino e Ciampino",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "aereo",
+   "modeLabel": "Aerei",
+   "scope": "Aeroporto",
+   "place": "Roma Fiumicino e Ciampino",
+   "lat": 41.8003,
+   "lon": 12.2389,
+   "regions": [
+    "Lazio"
+   ],
+   "start": "2026-12-14T00:00:00+01:00",
+   "end": "2026-12-14T23:59:00+01:00",
+   "hours": "24 ore",
+   "who": "Fast-Confsal",
+   "proclaimed": "2026-10-08",
+   "summary": "Ventiquattro ore di sciopero del personale di Aviation Services, società dei servizi di terra negli aeroporti di Roma Fiumicino e Ciampino.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  },
+  {
+   "id": "enav-bologna",
+   "title": "Sciopero ENAV all'aeroporto di Bologna",
+   "kicker": "Sciopero",
+   "group": "trasporti",
+   "mode": "aereo",
+   "modeLabel": "Aerei",
+   "scope": "Aeroporto",
+   "place": "Aeroporto di Bologna",
+   "lat": 44.5354,
+   "lon": 11.2887,
+   "regions": [
+    "Emilia-Romagna"
+   ],
+   "start": "2026-12-15T00:00:00+01:00",
+   "end": "2026-12-15T23:59:00+01:00",
+   "hours": "24 ore, tutta la giornata di martedì 15",
+   "who": "Uiltrasporti (Rsa)",
+   "proclaimed": "2026-10-16",
+   "summary": "Giornata di sciopero per il personale ENAV, la società del controllo del traffico aereo, all'aeroporto di Bologna. Possibili ritardi e cancellazioni.",
+   "src": [
+    "mit"
+   ],
+   "checked": "2026-10-20T06:58:00+02:00"
+  }
+ ],
+ "reportEmail": "segnalazioni@esempio.it"
+}
