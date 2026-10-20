@@ -1,0 +1,19 @@
+/* Computer: Oggi, Calendario e Aggiungi in una colonna a sinistra, la mappa sempre visibile a destra.
+   Sotto i 1024 px non cambia niente rispetto al telefono. */
+@media (min-width:1024px){
+  :root{--col:440px}
+  .view{right:auto;width:var(--col);border-right:1px solid var(--line);box-shadow:10px 0 32px -12px rgba(20,30,45,.18)}
+  .tabbar{right:auto;width:var(--col);grid-template-columns:repeat(3,minmax(0,1fr));border-right:1px solid var(--line)}
+  .tab[data-tab="mappa"]{display:none}
+  .top{left:var(--col);right:auto;width:476px}
+  .strip{left:var(--col)!important;bottom:0!important;padding-bottom:16px!important}
+  .mapctl{bottom:calc(var(--strip-h,120px) + 8px)!important}
+  .mobile-only{display:none!important}
+  .view-in{padding-top:24px}
+  /* Benvenuto e scelta città: una finestra al centro, la mappa si intravede dietro. */
+  .wel,.picker{left:50%;top:50%;right:auto;bottom:auto;width:460px;height:min(780px,92vh);transform:translate(-50%,-50%);border-radius:28px;box-shadow:0 0 0 100vmax rgba(20,22,26,.45),0 24px 60px rgba(0,0,0,.3);overflow:hidden}
+  .wel-s{max-width:none}
+  .wel-s>*{max-width:none}
+  .picker-in{padding-top:28px}
+}
+@media (min-width:1440px){:root{--col:480px}}

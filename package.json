@@ -1,0 +1,16 @@
+{
+  "name": "scioperioggi",
+  "private": true,
+  "description": "Scioperi e manifestazioni in Italia, città per città.",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "single": "node tools/build.mjs --single dist-single.html"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "d3-zoom": "3.0.0",
+    "d3-selection": "3.0.0",
+    "d3-transition": "3.0.1",
+    "d3-ease": "3.0.1"
+  }
+}

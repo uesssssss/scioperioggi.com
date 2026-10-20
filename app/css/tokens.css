@@ -1,0 +1,36 @@
+/* Colori, caratteri e misure, tema chiaro e scuro. */
+:root{
+  --sea:#DCE3E9; --shore:#EAEFF3; --land:#FBFAF8; --border:#D4D1C8; --coast:#8F9CA8; --grid:rgba(42,74,104,.10);
+  --ink:#16181C; --ink-2:#575D66; --ink-3:#858B94;
+  --glass:rgba(255,255,255,.86); --surface:#FFFFFF; --surface-2:#F3F4F6; --line:rgba(22,24,28,.12); --chip:rgba(22,24,28,.06);
+  --shadow:0 6px 24px rgba(20,30,45,.14),0 1px 3px rgba(20,30,45,.10);
+  --flap:#1B1D21; --flap-ink:#F3F0E8; --on-strong:#FFFFFF; --link:#2453C2;
+  --c-generale:#B0432B; --c-treno:#2F7D4F; --c-bus:#2F5FB3; --c-aereo:#1F7A8C; --c-nave:#24406E; --c-servizi:#A9740F; --c-merci:#5B6673; --c-corteo:#7A4FC0; --c-done:#8C9299;
+  --p-generale:#A23C26; --p-treno:#276B43; --p-bus:#284F98; --p-aereo:#19697A; --p-nave:#1F375F; --p-servizi:#84590B; --p-merci:#4E5864; --p-corteo:#6A43AA; --p-done:#5E646B;
+  --brand:#B0432B; --brand-2:#E07A2F; --page:#F4F3F0; --card:#FFFFFF; --tab-h:calc(62px + env(safe-area-inset-bottom,0px));
+  --pin-icon:#FFFFFF; --pin-ring:#FFFFFF; --focus:#2556C8;
+  --font-display:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --font-ui:"Schibsted Grotesk",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --sea:#0C1014; --shore:#121920; --land:#1A1F25; --border:#2C333B; --coast:#4B5662; --grid:rgba(150,175,200,.07);
+    --ink:#F1F2F4; --ink-2:#A8AEB6; --ink-3:#79808A;
+    --glass:rgba(23,27,33,.88); --surface:#1D2228; --surface-2:#252B32; --line:rgba(255,255,255,.11); --chip:rgba(255,255,255,.07);
+    --shadow:0 8px 28px rgba(0,0,0,.45),0 1px 3px rgba(0,0,0,.35);
+    --flap:#08090B; --flap-ink:#ECE7DC; --link:#8FB0FF;
+    --c-generale:#E5765C; --c-treno:#5DBB83; --c-bus:#6E98E8; --c-aereo:#4FB3C4; --c-nave:#8AA5DB; --c-servizi:#E0AE4A; --c-merci:#9AA6B3; --c-corteo:#A98BEA; --c-done:#6A717A; --brand:#E5765C; --page:#121417; --card:#1B1F24;
+    --pin-icon:#0C0F13; --pin-ring:#0C1014; --focus:#8FB0FF;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --sea:#0C1014; --shore:#121920; --land:#1A1F25; --border:#2C333B; --coast:#4B5662; --grid:rgba(150,175,200,.07);
+  --ink:#F1F2F4; --ink-2:#A8AEB6; --ink-3:#79808A;
+  --glass:rgba(23,27,33,.88); --surface:#1D2228; --surface-2:#252B32; --line:rgba(255,255,255,.11); --chip:rgba(255,255,255,.07);
+  --shadow:0 8px 28px rgba(0,0,0,.45),0 1px 3px rgba(0,0,0,.35);
+  --flap:#08090B; --flap-ink:#ECE7DC; --link:#8FB0FF;
+  --c-generale:#E5765C; --c-treno:#5DBB83; --c-bus:#6E98E8; --c-aereo:#4FB3C4; --c-nave:#8AA5DB; --c-servizi:#E0AE4A; --c-merci:#9AA6B3; --c-corteo:#A98BEA; --c-done:#6A717A; --brand:#E5765C; --page:#121417; --card:#1B1F24;
+  --pin-icon:#0C0F13; --pin-ring:#0C1014; --focus:#8FB0FF;
+  color-scheme:dark;
+}

@@ -1,32 +1,28 @@
-# Wraps the built app fragment into the full index.html for scioperioggi.com
-import sys
-src, out = sys.argv[1], sys.argv[2]
-b = open(src).read(); i = b.index('<svg class="ic-defs"'); head, body = b[:i], b[i:]
-desc = 'Scioperi di treni, bus e aerei e cortei in Italia, città per città. Aggiornato ogni mattina.'
-open(out, 'w').write(f'''<!doctype html>
+<!doctype html>
 <html lang="it">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="{desc}">
+<title>scioperioggi · Scioperi e manifestazioni in Italia</title>
+<meta name="description" content="Scioperi di treni, bus e aerei e cortei in Italia, città per città. Aggiornato ogni mattina.">
 <meta name="theme-color" content="#EEE8DC">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Scioperi">
+<meta name="apple-mobile-web-app-title" content="Scioperi oggi">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon-180.png">
 <link rel="manifest" href="manifest.webmanifest">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://scioperioggi.com/">
 <meta property="og:title" content="scioperioggi">
-<meta property="og:description" content="{desc}">
+<meta property="og:description" content="Scioperi di treni, bus e aerei e cortei in Italia, città per città. Aggiornato ogni mattina.">
 <meta property="og:image" content="https://scioperioggi.com/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="it_IT">
 <meta name="twitter:card" content="summary_large_image">
-{head}</head>
+<!--HEADEXTRA-->
+<!--STYLES-->
+</head>
 <body>
-{body}
-</body>
-</html>
-''')
