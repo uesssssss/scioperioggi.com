@@ -27,7 +27,7 @@ Concorrenza nota: mappadellarivolta.org (stessa idea, tono militante, parla a ch
 - **Calendario**: "La mia città" (solo eventi locali, senza i nazionali) oppure "Tutta Italia".
 - **Aggiungi**: modulo di segnalazione, inviato direttamente dal sito con conferma "Segnalazione inviata".
 
-**Primo avvio**: due schermate di benvenuto ("Scioperi e cortei, vicino a te." · "Ogni sciopero ha il suo colore.") e poi "Di dove sei?" con la scelta della città e del tema chiaro/scuro.
+**Primo avvio**: due schermate di benvenuto ("Scioperi e cortei, vicino a te." · "Ogni sciopero ha il suo colore.") e poi "In che provincia abiti?" con la scelta del capoluogo e del tema chiaro/scuro.
 
 **Computer (da 1024 px)**: colonna a sinistra con Oggi/Calendario/Aggiungi, mappa sempre visibile a destra, intestazione della mappa in una fascia in alto, scheda di dettaglio sul lato destro. Sotto i 1024 px tutto è come sul telefono.
 

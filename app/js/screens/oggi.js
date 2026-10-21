@@ -27,7 +27,7 @@ export function renderOggi() {
   const city = S.city, name = city ? city.name : 'casa tua';
   if (!S.selDay || S.selDay < TODAY || S.selDay > addDays(TODAY, 6)) S.selDay = TODAY;
   const selDay = S.selDay;
-  let html = '<div class="o-top"><button class="citybtn" type="button" data-act="city" aria-label="Cambia città, ora ' + esc(name) + '">' + PIN + esc(city ? city.name : 'Scegli la tua città') + DOWN + '</button>' +
+  let html = '<div class="o-top"><button class="citybtn" type="button" data-act="city" aria-label="Cambia provincia, ora ' + esc(name) + '">' + PIN + esc(city ? city.name : 'Scegli la provincia') + DOWN + '</button>' +
     '<button class="roundbtn" type="button" data-act="info" aria-label="Da dove arrivano i dati">' + icon('u-info') + '</button></div>' +
     '<div><div class="o-date">' + esc(cap(fDay.format(NOW))) + '</div><h1 class="o-title">Oggi a ' + esc(name) + '</h1></div>';
   html += '<div class="wk" role="group" aria-label="Prossimi sette giorni">';
