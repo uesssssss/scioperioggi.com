@@ -2,7 +2,7 @@
 import { S, D } from '../state.js';
 import { $, esc, icon, PIN, DOWN, PLUS, reduceMotion } from '../util.js';
 import { NOW, TODAY, noon, fDay, fWd3, fTime, cap, parts, addDays } from '../dates.js';
-import { PRIO, tkey, status, startDay, endDay, byStart, untilText, shareHref, near, relevant } from '../events.js';
+import { PRIO, tkey, status, startDay, endDay, byStart, untilText, shareHref, nearCorteo, relevant } from '../events.js';
 import { erow } from './common.js';
 
 const LIGHT = { generale: 1 };
@@ -12,7 +12,7 @@ function dayItems(d) {
   return D.events.filter((e) => {
     if (status(e).k === 'done') return false;
     if (startDay(e) > d || endDay(e) < d) return false;
-    return e.group === 'cortei' ? (!S.city || near(e, 60)) : relevant(e);
+    return e.group === 'cortei' ? nearCorteo(e) : relevant(e);
   }).sort((a, b) => (status(a).r - status(b).r) || (PRIO[tkey(a)] - PRIO[tkey(b)]) || (a.t0 - b.t0));
 }
 function cardTime(ev, d) {
@@ -67,7 +67,7 @@ export function renderOggi() {
   const upcoming = D.events.filter((e) => e.group !== 'cortei' && relevant(e) && startDay(e) > horizon).sort(byStart).slice(0, 4);
   html += '<section><div class="sec-h"><h3>Più avanti</h3><button class="linkbtn" type="button" data-act="cal">Calendario</button></div>' +
     (upcoming.length ? upcoming.map(erow).join('') : '<p class="note">Niente in calendario oltre questa settimana.</p>') + '</section>';
-  const piazza = D.events.filter((e) => e.group === 'cortei' && status(e).k !== 'done' && (!S.city || near(e, 60))).sort(byStart).slice(0, 3);
+  const piazza = D.events.filter((e) => e.group === 'cortei' && status(e).k !== 'done' && nearCorteo(e)).sort(byStart).slice(0, 3);
   html += '<section class="piazza"><div class="piazza-k"><svg aria-hidden="true" viewBox="0 0 24 24"><use href="#i-corteo"/></svg>In piazza vicino a te</div>' +
     (piazza.length ? '<div>' + piazza.map(erow).join('') + '</div>' : '<p class="note" style="margin:0">Nessun corteo segnalato vicino a ' + esc(name) + ' nei prossimi giorni.</p>') +
     '<div class="pill-btns"><button class="softbtn mobile-only" type="button" data-act="mappa">Vedi sulla mappa</button><button class="softbtn" type="button" data-act="segnala">' + PLUS + 'Aggiungi corteo</button></div></section>';

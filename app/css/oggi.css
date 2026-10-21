@@ -16,7 +16,7 @@
 .wd[aria-pressed="true"] small{color:var(--paper);opacity:.75}
 .wd[aria-pressed="true"] .dots i{outline:1.5px solid var(--paper);outline-offset:-0.5px}
 .stack{display:flex;flex-direction:column}
-.sc{box-sizing:border-box;position:relative;border-radius:24px;background:var(--s);color:var(--paper-ink);text-align:left;border:0;box-shadow:0 -1px 0 rgba(0,0,0,.06),0 -6px 14px -8px rgba(0,0,0,.25)}
+.sc{box-sizing:border-box;position:relative;overflow-wrap:break-word;border-radius:24px;background:var(--s);color:var(--paper-ink);text-align:left;border:0;box-shadow:0 -1px 0 rgba(0,0,0,.06),0 -6px 14px -8px rgba(0,0,0,.25)}
 .sc.light{color:#FFFFFF}
 .sc.band{display:flex;flex-direction:column;gap:2px;width:100%;padding:13px 18px 36px;margin-bottom:-24px}
 .sc.band .bk{display:flex;justify-content:space-between;gap:10px;font:600 12px var(--font-ui);opacity:.75;white-space:nowrap}

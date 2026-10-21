@@ -31,7 +31,7 @@ Concorrenza nota: mappadellarivolta.org (stessa idea, tono militante, parla a ch
 
 **Computer (da 1024 px)**: colonna a sinistra con Oggi/Calendario/Aggiungi, mappa sempre visibile a destra, intestazione della mappa in una fascia in alto, scheda di dettaglio sul lato destro. Sotto i 1024 px tutto è come sul telefono.
 
-**Quali eventi riguardano una città**: quelli nazionali, quelli entro 35 km, quelli regionali nella sua regione. I cortei: entro 60 km.
+**Quali eventi riguardano una città**: quelli nazionali, quelli regionali solo nella sua regione, gli altri entro 35 km. I cortei: entro 60 km nella stessa regione, entro 35 km oltre il confine (Alba non compare a Savona).
 
 ## 3. Stile
 

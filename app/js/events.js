@@ -65,11 +65,14 @@ function inTime(ev) {
 }
 export function visible() { return D.events.filter((e) => inTime(e) && groupOn(e.group)); }
 
-// Cosa riguarda la città scelta: nazionale, entro 35 km, o regionale nella sua regione.
+// Cosa riguarda la città scelta: nazionale, regionale solo nella sua regione, il resto entro 35 km.
 export function near(ev, km) { const c = S.city; return ev.pt && c && Math.hypot(ev.pt[0] - c.pt[0], ev.pt[1] - c.pt[1]) * KM_PER_UNIT < km; }
+function sameRegion(ev) { return Array.isArray(ev.regions) && ev.regions.indexOf(S.city.region) >= 0; }
 export function relevant(ev) {
   const c = S.city;
   if (!c || ev.national) return true;
-  if (near(ev, 35)) return true;
-  return ev.scope === 'Regionale' && Array.isArray(ev.regions) && ev.regions.indexOf(c.region) >= 0;
+  if (ev.scope === 'Regionale') return sameRegion(ev);
+  return near(ev, 35);
 }
+// Cortei: entro 60 km nella stessa regione, entro 35 km oltre il confine.
+export function nearCorteo(ev) { return !S.city || near(ev, sameRegion(ev) ? 60 : 35); }
