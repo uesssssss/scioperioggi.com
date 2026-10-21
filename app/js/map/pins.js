@@ -33,9 +33,16 @@ export function recluster() {
     const hit = out.find((o) => o.c === isC && Math.hypot(o.sx - sx, o.sy - sy) < R);
     if (hit) hit.items.push(ev); else out.push({ sx, sy, pt: ev.pt, c: isC, items: [ev] });
   });
+  // Un corteo sopra un segnaposto di scioperi lo coprirebbe: si sposta in alto a destra, così si toccano tutti e due.
+  out.forEach((c) => {
+    c.dx = 0; c.dy = 0;
+    if (!c.c) return;
+    if (out.some((o) => !o.c && Math.hypot(o.sx - c.sx, o.sy - c.sy) < 30)) { c.dx = 22; c.dy = -20; }
+  });
   const sig = out.map((c) => c.items.map((e) => e.id).join(',')).join('|');
-  if (sig === S.lastSig && S.clusters.length) { render(); return; }
-  S.lastSig = sig;
+  const shift = out.map((c) => c.dx + ',' + c.dy).join('|');
+  if (sig + shift === S.lastSig && S.clusters.length) { render(); return; }
+  S.lastSig = sig + shift;
   pinsEl.textContent = '';
   S.clusters = out.map((c) => {
     const lead = c.items[0], n = c.items.length, b = document.createElement('button');
@@ -50,7 +57,7 @@ export function recluster() {
     b.innerHTML = '<span class="b">' + icon('i-' + lead.mode) + '</span>' + (n > 1 ? '<span class="n">' + n + '</span>' : '');
     b.addEventListener('click', (e) => { e.stopPropagation(); if (n === 1) openDetail(lead, null, b); else openCluster(c.items, b); });
     pinsEl.appendChild(b);
-    return { el: b, pt: c.pt, items: c.items };
+    return { el: b, pt: c.pt, items: c.items, dx: c.dx, dy: c.dy };
   });
   render();
 }

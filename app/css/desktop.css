@@ -17,8 +17,11 @@
   .mobile-only{display:none!important}
   .view-in{padding-top:24px}
   /* Benvenuto e scelta città: una finestra al centro, la mappa si intravede dietro. */
-  .wel,.picker{left:50%;top:50%;right:auto;bottom:auto;width:460px;height:min(780px,92vh);transform:translate(-50%,-50%);border-radius:28px;box-shadow:0 0 0 100vmax rgba(20,22,26,.45),0 24px 60px rgba(0,0,0,.3);overflow:hidden}
+  .wel,.picker{left:50%;top:50%;right:auto;bottom:auto;width:460px;height:min(780px,92vh);transform:translate(-50%,-50%);border-radius:28px;box-shadow:0 30px 80px rgba(0,0,0,.35),0 0 0 1px rgba(0,0,0,.06);overflow:hidden}
   .wel-s{max-width:none}
+  /* Dietro la finestra il sito si scurisce e si sfoca, così si capisce cosa va guardato. */
+  .veil{display:none;position:fixed;inset:0;z-index:39;background:rgba(22,20,16,.6);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+  body:has(#picker:not([hidden])) .veil,body:has(#welcome:not([hidden])) .veil{display:block}
   .wel-s>*{max-width:none}
   .picker-in{padding-top:28px}
 }

@@ -1,0 +1,29 @@
+name: Controllo dati e build
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  controllo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - name: Installa le dipendenze
+        run: npm ci --ignore-scripts
+      - name: Controlla i dati e ricostruisci il sito
+        run: npm run build
+      - name: Controlla che index.html e assets siano aggiornati
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "index.html, assets/ o data/geo.json non corrispondono ai sorgenti. Esegui 'npm run build' e fai commit."
+            git status --short
+            exit 1
+          fi

@@ -63,7 +63,7 @@ function poster(ev) {
     '<span class="k">' + esc(ev.kicker) + '</span>' +
     '<span class="d"><b class="' + (multi ? 'multi' : '') + '">' + (multi ? A.d + '–' + B.d : A.d) + '</b><span>' + MON3[(multi ? B : A).m - 1] + '</span></span>' +
     '<span class="f"><span class="pl">' + esc(ev.national ? 'Tutta Italia' : ev.place) + '</span><span>' + esc(cap(fWd.format(noon(a)))) + '</span></span>' +
-    '<svg class="bigicon" aria-hidden="true"><use href="#i-' + ev.mode + '"/></svg></div>';
+    '<svg class="bigicon" aria-hidden="true"><use href="#i-' + esc(ev.mode) + '"/></svg></div>';
 }
 function srcCard(s) {
   let host = '';
@@ -153,6 +153,7 @@ export function openInfo(trigger) {
     '<h2 class="sh-title" id="sheet-title">Da dove arrivano i dati</h2><div class="info">' +
     '<p>Gli scioperi dei trasporti vengono dal <a href="https://scioperi.mit.gov.it/mit2/public/scioperi" target="_blank" rel="noopener noreferrer">prospetto ufficiale del Ministero delle Infrastrutture e dei Trasporti</a>. Scuola e vigili del fuoco arrivano dalle testate che riprendono il calendario della Commissione di garanzia. Motivazioni, presidi e cortei vengono dai sindacati e dai giornali citati in ogni scheda.</p>' +
     '<p>Le foto restano sui siti dei giornali: in ogni scheda scorri la locandina verso destra e apri l’articolo.</p>' +
+    '<p>I confini delle regioni sono dati ISTAT (licenza CC BY 4.0), nella versione pubblicata da openpolis.</p>' +
     '<p>Uno sciopero può essere revocato o spostato fino all’ultimo. Prima di partire controlla gli avvisi dell’azienda, della scuola o della compagnia aerea.</p>' +
     '<h3>Colori sulla mappa</h3><div class="legend">' + legend + '</div>' +
     '<h3>Sulla mappa</h3><p style="margin-top:0">Gli eventi vicini si raggruppano in un solo segnaposto con il numero. Quelli che riguardano tutta Italia sono nella striscia in basso; il pallino che pulsa indica uno sciopero in corso.</p>' +

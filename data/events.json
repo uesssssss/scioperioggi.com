@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-20T06:58:00+02:00",
+ "updated": "2026-10-21T06:58:00+02:00",
  "shareUrl": "https://scioperioggi.com/",
  "sources": {
   "mit": {
    "pub": "Ministero dei Trasporti",
    "kind": "Fonte ufficiale",
-   "label": "Prospetto degli scioperi, aggiornato al 20 ottobre",
+   "label": "Prospetto degli scioperi, aggiornato al 21 ottobre",
    "url": "https://scioperi.mit.gov.it/mit2/public/scioperi"
   },
   "sky": {
@@ -283,6 +283,66 @@
    "kind": "Sindacato",
    "label": "La proclamazione dello sciopero del 20 novembre",
    "url": "https://www.cgilmodena.it/20-novembre-2026-cgil-proclama-lo-sciopero-generale/"
+  },
+  "ansaTir20": {
+   "pub": "ANSA",
+   "kind": "Articolo",
+   "label": "Sicilia, revocato il fermo dei tir; Calabria e Campania vanno avanti",
+   "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/20/in-sicilia-revocato-il-fermo-dei-tir.-in-calabria-prosegue-fino-al-27-ottobre_3a6127ff-0b4c-4c40-8785-32cfb644514b.html"
+  },
+  "uetTavolo": {
+   "pub": "Uomini e Trasporti",
+   "kind": "Articolo",
+   "label": "Dopo il tavolo di Milano, regione per regione",
+   "url": "https://www.uominietrasporti.it/professione/leggi-e-politica/autotrasporto-il-tavolo-di-milano-divide-la-protesta-la-sicilia-riparte-campania-e-calabria-restano-ferme/"
+  },
+  "trasportoEuropa20": {
+   "pub": "TrasportoEuropa",
+   "kind": "Articolo",
+   "label": "I presidi dei camion il 20 ottobre",
+   "url": "https://www.trasportoeuropa.it/notizie/autotrasporto/nuovi-soldi-allautotrasporto-mentre-prosegue-la-protesta"
+  },
+  "espressione24Tir": {
+   "pub": "Espressione24",
+   "kind": "Articolo",
+   "label": "La protesta continua anche in Puglia, Basilicata e Molise",
+   "url": "https://www.espressione24.it/prosegue-la-protesta-dei-tir-avanti-in-calabria-puglia-basilicata-e-molise-revocato-lo-stop-in-sicilia-fumata-nera-allincontro-con-salvini/"
+  },
+  "orizzonteUnicobas": {
+   "pub": "Orizzonte Insegnanti",
+   "kind": "Articolo",
+   "label": "Unicobas sposta lo sciopero al 30 ottobre",
+   "url": "https://orizzonteinsegnanti.it/scioperi-unicobas-anticipa-la-protesta-generale-al-30-ottobre-e-le-implicazioni-per-la-scuola/"
+  },
+  "cgilCal1925": {
+   "pub": "CGIL",
+   "kind": "Sindacato",
+   "label": "Calendario delle iniziative dal 19 al 25 ottobre",
+   "url": "https://www.cgil.it/strumenti/scioperi-e-vertenze/calendario-scioperi-19-25-ottobre-2026-vertenze-mobilitazioni-e-iniziative-cgil-v9p2i2uo"
+  },
+  "cgilBergamoTeatri": {
+   "pub": "CGIL Bergamo",
+   "kind": "Sindacato",
+   "label": "Lo sciopero nazionale dei teatri del 27 ottobre",
+   "url": "https://cgil.bergamo.it/notizie/teatri-sciopero-nazionale-il-27-ottobre-a-bergamo-coinvolti-oltre-cento-lavoratori/"
+  },
+  "ansaTeatri": {
+   "pub": "ANSA",
+   "kind": "Articolo",
+   "label": "I lavoratori del teatro proclamano lo sciopero",
+   "url": "https://www.ansa.it/sito/notizie/cultura/2026/10/12/i-lavoratori-del-teatro-proclamano-lo-sciopero-per-il-contratto_39c4916b-af51-4afd-ab6c-5fc17e9b6124.html"
+  },
+  "targatoUsb30": {
+   "pub": "Targatocn",
+   "kind": "Articolo",
+   "label": "Il corteo regionale Usb a Torino",
+   "url": "https://www.targatocn.it/2026/10/20/leggi-notizia/argomenti/economia-7/articolo/lusb-verso-lo-sciopero-generale-del-30-ottobre-anche-a-cuneo-si-prepara-la-mobilitazione-1.html"
+  },
+  "qnMappa": {
+   "pub": "Quotidiano Nazionale",
+   "kind": "Articolo",
+   "label": "La mappa delle manifestazioni fino a dicembre",
+   "url": "https://www.quotidiano.net/cronaca/la-mappa-delle-proteste-annunciate-250-manifestazioni-in-piazza-ogni-sabato-fino-a-dicembre-qn168y8b"
   }
  },
  "events": [
@@ -301,17 +361,19 @@
     "Puglia"
    ],
    "start": "2026-10-11T00:00:00+02:00",
-   "end": "2026-10-20T23:59:00+02:00",
-   "hours": "Da domenica 11. Partenze dei camion verso il Nord sospese fino a martedì 20.",
+   "end": "2026-10-27T23:59:00+01:00",
+   "hours": "Da domenica 11, almeno fino a martedì 27",
    "who": "Autotrasportatori e agricoltori, senza una proclamazione sindacale",
-   "summary": "Camionisti e agricoltori protestano contro il caro gasolio con presidi e blocchi sulle strade: in Puglia se ne contano 30-35. I più grandi sono al casello di Poggio Imperiale sull'A14 e allo svincolo di Candela, dove vengono fermati i camion in arrivo dalla Campania. In molti distributori del Sud manca il carburante.",
-   "note": "Non c'è una data di fine: i manifestanti dicono di voler restare a oltranza. Il tavolo con il governo è fissato per martedì 20.",
+   "summary": "Camionisti e agricoltori protestano contro il caro gasolio con presidi e blocchi sulle strade. Nei giorni scorsi i più grandi erano al casello di Poggio Imperiale sull'A14 e allo svincolo di Candela. Dopo il tavolo del 20 ottobre gli autonomi hanno tolto solo una parte dei blocchi.",
+   "note": "Non è chiaro quali presidi restano: alcuni gruppi dicono di voler continuare fino al 27 ottobre, giorno del nuovo incontro al Ministero dei Trasporti.",
    "src": [
+    "ansaTir20",
+    "uetTavolo",
+    "espressione24Tir",
     "ilpostPuglia19",
-    "ilpostPuglia",
-    "indipendenteSud"
+    "ilpostPuglia"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "amtab-bari",
@@ -593,19 +655,20 @@
     "Calabria"
    ],
    "start": "2026-10-16T00:01:00+02:00",
-   "end": "2026-10-20T23:59:59+02:00",
-   "hours": "5 giorni, dalle 0:01 di venerdì 16 alla mezzanotte di martedì 20",
+   "end": "2026-10-27T23:59:00+01:00",
+   "hours": "Dalle 0:01 di venerdì 16, prolungato almeno fino a martedì 27",
    "who": "Fedralog Calabria",
    "proclaimed": "2026-09-30",
-   "summary": "Cinque giorni di fermo per le imprese di autotrasporto merci per conto terzi aderenti a Fedralog in Calabria. Arriva dopo un primo fermo dell'autotrasporto calabrese, dal 9 al 13 ottobre.",
+   "summary": "Fermo delle imprese di autotrasporto aderenti a Fedralog in Calabria, contro il caro gasolio. Dopo il tavolo di Milano del 20 ottobre, Fedralog ha deciso di andare avanti almeno fino al 27, giorno del nuovo incontro al Ministero dei Trasporti.",
    "src": [
+    "ansaTir20",
+    "uetTavolo",
+    "trasportoEuropa20",
     "mit",
-    "qn",
-    "indipendenteSud",
     "espressoSud"
    ],
-   "checked": "2026-10-20T06:58:00+02:00",
-   "note": "In Calabria ci sono anche blocchi stradali: al porto di Gioia Tauro, agli svincoli dell'A2 e, dal 19, sulla statale 18 a Fuscaldo. Il tavolo con il governo è martedì 20."
+   "checked": "2026-10-21T06:58:00+02:00",
+   "note": "Ci sono presidi sulla statale 18 nel Tirreno cosentino: Tortora, Santa Maria del Cedro, Acquappesa-Guardia Piemontese e Fuscaldo."
   },
   {
    "id": "fermo-sicilia",
@@ -628,6 +691,8 @@
    "proclaimed": "2026-09-28",
    "summary": "Gli autotrasportatori siciliani lasciano i camion nei piazzali e non ritirano i semirimorchi nei porti dell'isola. Protestano contro il gasolio intorno a 2,40 euro al litro e contro i ritardi nei pagamenti del Sea Modal Shift, l'incentivo che sostiene il trasporto delle merci via mare. Non sono previsti presidi.",
    "src": [
+    "ansaTir20",
+    "uetTavolo",
     "qfSicilia",
     "laSicilia",
     "mfSicilia",
@@ -639,8 +704,8 @@
     "sicilianewsMilano",
     "espressoSud"
    ],
-   "checked": "2026-10-20T06:58:00+02:00",
-   "note": "Martedì 20 a Milano c'è il tavolo con il ministro dei Trasporti. Il comitato siciliano revoca il fermo solo se il ministro firma impegni scritti; altrimenti il fermo va avanti fino al 27 ottobre. I porti dell'isola sono bloccati, tranne il transito di frutta e verdura sullo Stretto. Le imprese di Confindustria Catania hanno annunciato un fermo fino a giovedì 22."
+   "checked": "2026-10-21T06:58:00+02:00",
+   "note": "Il 20 ottobre, dopo il tavolo di Milano, il comitato siciliano ha revocato il fermo. Resta in stato di agitazione finché il governo non mantiene gli impegni."
   },
   {
    "id": "corteo-avellino-16",
@@ -875,7 +940,7 @@
    "mode": "camion",
    "modeLabel": "Autotrasporto",
    "scope": "Interregionale",
-   "place": "Campania e Basilicata: A1, A2, porto di Napoli, Potenza",
+   "place": "Campania e Basilicata: Nola, Maddaloni-Marcianise, porto di Napoli, Potenza",
    "lat": 40.8518,
    "lon": 14.2681,
    "regions": [
@@ -883,15 +948,18 @@
     "Basilicata"
    ],
    "start": "2026-10-19T00:00:00+02:00",
-   "end": "2026-10-20T23:59:00+02:00",
-   "hours": "Da lunedì 19, blocchi a singhiozzo",
+   "end": "2026-10-27T23:59:00+01:00",
+   "hours": "Da lunedì 19, almeno fino a martedì 27",
    "who": "Autotrasportatori e agricoltori, senza una proclamazione sindacale",
-   "summary": "La protesta contro il caro gasolio si allarga. In Campania ci sono rallentamenti ai caselli dell'A1 tra Napoli Nord, Caserta, Palma Campania, Sarno e Nocera, e a Caserta Sud la strada è occupata. Bloccati anche il varco Bausan del porto di Napoli e lo svincolo di Eboli sull'A2. In Basilicata ci sono presidi a Potenza Est, Potenza Ovest e nella zona industriale di Tito.",
-   "note": "Non c'è una data di fine. Il tavolo con il governo è fissato per martedì 20.",
+   "summary": "I camionisti autonomi proseguono la protesta contro il caro gasolio. In Campania restano presidi fissi ai caselli di Nola sull'A30 e sull'A1 vicino agli interporti di Nola e Maddaloni-Marcianise; il 20 era bloccato anche il varco Bausan del porto di Napoli. In Basilicata ci sono presidi alle porte di Potenza.",
+   "note": "I blocchi dovrebbero durare almeno fino al 27 ottobre, giorno del nuovo incontro al Ministero dei Trasporti. Nelle province di Napoli e Caserta mancano merci nei supermercati.",
    "src": [
+    "ansaTir20",
+    "trasportoEuropa20",
+    "espressione24Tir",
     "espressoSud"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "bis-roma",
@@ -945,6 +1013,32 @@
    "checked": "2026-10-19T06:56:00+02:00"
   },
   {
+   "id": "presidi-camion-molise",
+   "title": "Presidi dei camion in Molise",
+   "kicker": "Fermo",
+   "group": "merci",
+   "mode": "camion",
+   "modeLabel": "Autotrasporto",
+   "scope": "Regionale",
+   "place": "Molise, tra Venafro e Isernia",
+   "lat": 41.54,
+   "lon": 14.14,
+   "regions": [
+    "Molise"
+   ],
+   "start": "2026-10-20T00:00:00+02:00",
+   "end": "2026-10-27T23:59:00+01:00",
+   "hours": "Da martedì 20, almeno fino a martedì 27",
+   "who": "Autotrasportatori autonomi, senza una proclamazione sindacale",
+   "summary": "La protesta dei camionisti contro il caro gasolio arriva anche in Molise, con presidi su alcune strade principali tra Venafro e Isernia.",
+   "note": "Non c'è una data di fine ufficiale: i manifestanti fanno riferimento all'incontro al Ministero dei Trasporti del 27 ottobre.",
+   "src": [
+    "espressione24Tir",
+    "trasportoEuropa20"
+   ],
+   "checked": "2026-10-21T06:58:00+02:00"
+  },
+  {
    "id": "arriva-udine",
    "title": "Sciopero dei bus Arriva Udine",
    "kicker": "Sciopero",
@@ -991,7 +1085,7 @@
    "src": [
     "sardiniaBrotzu"
    ],
-   "checked": "2026-10-18T06:57:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "amt-genova-21",
@@ -1017,7 +1111,57 @@
     "mit",
     "primocanaleAmt"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
+  },
+  {
+   "id": "presidio-milano-scala-21",
+   "title": "Presidio Cgil in piazza della Scala",
+   "kicker": "Corteo",
+   "group": "cortei",
+   "mode": "corteo",
+   "modeLabel": "Presidio",
+   "scope": "Cittadino",
+   "place": "Milano, piazza della Scala",
+   "lat": 45.4675,
+   "lon": 9.19,
+   "regions": [
+    "Lombardia"
+   ],
+   "start": "2026-10-21T18:30:00+02:00",
+   "end": "2026-10-21T20:00:00+02:00",
+   "hours": "Alle 18:30 in piazza della Scala",
+   "note": "L'orario di fine è indicativo: gli organizzatori non lo hanno comunicato.",
+   "who": "Camera del Lavoro di Milano (Cgil)",
+   "summary": "La Cgil di Milano si ritrova in piazza della Scala per la coesione sociale e contro le disuguaglianze, dopo alcuni episodi di violenza in città.",
+   "src": [
+    "cgilCal1925"
+   ],
+   "checked": "2026-10-21T06:58:00+02:00"
+  },
+  {
+   "id": "teatri-er-23",
+   "title": "Sciopero dei teatri in Emilia-Romagna",
+   "kicker": "Sciopero",
+   "group": "servizi",
+   "mode": "generale",
+   "modeLabel": "Teatri",
+   "scope": "Regionale",
+   "place": "Emilia-Romagna",
+   "lat": 44.4949,
+   "lon": 11.3426,
+   "regions": [
+    "Emilia-Romagna"
+   ],
+   "start": "2026-10-23T00:00:00+02:00",
+   "end": "2026-10-23T23:59:00+02:00",
+   "hours": "Tutta la giornata di venerdì 23",
+   "note": "Alcuni spettacoli potrebbero saltare: controlla gli avvisi del teatro.",
+   "who": "Slc Cgil, Fistel Cisl, Uilcom Uil",
+   "summary": "Sciopero di un giorno per i lavoratori dei teatri dell'Emilia-Romagna, per il rinnovo del contratto nazionale dello spettacolo dal vivo, scaduto da anni.",
+   "src": [
+    "cgilCal1925"
+   ],
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "fse-bari",
@@ -1042,7 +1186,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "corteo-universitari-roma-24",
@@ -1065,9 +1209,10 @@
    "who": "Azione Universitaria",
    "summary": "Corteo dell'organizzazione studentesca Azione Universitaria, da piazza della Libertà a piazza Risorgimento, con lo slogan \"Sblocchiamo tutto\".",
    "src": [
-    "tgcomDate"
+    "tgcomDate",
+    "qnMappa"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "corteo-pace-roma-24",
@@ -1090,9 +1235,82 @@
    "who": "Campagna \"Fuori l'Italia dalla guerra\"",
    "summary": "Corteo nazionale a Roma promosso dalla campagna \"Fuori l'Italia dalla guerra\", contro il riarmo e le spese militari e in solidarietà con il popolo palestinese. Il ritrovo è in piazza della Repubblica.",
    "src": [
-    "amd24"
+    "amd24",
+    "qnMappa"
    ],
-   "checked": "2026-10-18T06:57:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
+  },
+  {
+   "id": "corteo-alba-24",
+   "title": "Corteo contro il caporalato ad Alba",
+   "kicker": "Corteo",
+   "group": "cortei",
+   "mode": "corteo",
+   "modeLabel": "Corteo",
+   "scope": "Cittadino",
+   "place": "Alba, da via Pola a piazza Michele Ferrero",
+   "lat": 44.7004,
+   "lon": 8.0352,
+   "regions": [
+    "Piemonte"
+   ],
+   "start": "2026-10-24T14:00:00+02:00",
+   "end": "2026-10-24T17:00:00+02:00",
+   "hours": "Ritrovo alle 14 in via Pola",
+   "note": "L'orario di fine è indicativo: gli organizzatori non lo hanno comunicato.",
+   "who": "Caritas diocesana, Cgil, Cisl, Uil, Libera, Arci",
+   "summary": "Corteo ad Alba contro il caporalato, il lavoro nero e lo sfruttamento dei braccianti nei vigneti di Langhe e Roero. Arriva in piazza Michele Ferrero.",
+   "src": [
+    "cgilCal1925"
+   ],
+   "checked": "2026-10-21T06:58:00+02:00"
+  },
+  {
+   "id": "corteo-torino-24",
+   "title": "Corteo contro il riarmo a Torino",
+   "kicker": "Corteo",
+   "group": "cortei",
+   "mode": "corteo",
+   "modeLabel": "Corteo",
+   "scope": "Cittadino",
+   "place": "Torino",
+   "lat": 45.0703,
+   "lon": 7.6869,
+   "regions": [
+    "Piemonte"
+   ],
+   "start": "2026-10-24T15:00:00+02:00",
+   "end": "2026-10-24T18:00:00+02:00",
+   "hours": "Partenza alle 15",
+   "note": "L'orario di fine è indicativo e il percorso non è stato ancora comunicato.",
+   "who": "Askatasuna",
+   "summary": "Corteo contro il riarmo a Torino nel pomeriggio di sabato 24, nella stessa giornata del corteo nazionale di Roma.",
+   "src": [
+    "qnMappa"
+   ],
+   "checked": "2026-10-21T06:58:00+02:00"
+  },
+  {
+   "id": "teatri-27-ottobre",
+   "title": "Sciopero nazionale dei teatri",
+   "kicker": "Sciopero",
+   "group": "servizi",
+   "mode": "generale",
+   "modeLabel": "Teatri",
+   "scope": "Nazionale",
+   "place": "Tutta Italia",
+   "regions": "all",
+   "start": "2026-10-27T00:00:00+01:00",
+   "end": "2026-10-27T23:59:00+01:00",
+   "hours": "Tutta la giornata di martedì 27",
+   "note": "I teatri senza spettacoli il 27 possono scioperare in un altro giorno tra il 21 e il 30 ottobre. Gli straordinari sono bloccati dal 15 ottobre. Il 9 novembre è prevista una manifestazione nazionale a Roma.",
+   "who": "Slc Cgil, Fistel Cisl, Uilfpc Uil",
+   "summary": "Si fermano i lavoratori dei teatri e il personale scritturato: attori, danzatori, musicisti e tecnici. Chiedono il rinnovo del contratto nazionale Teatri e Scritturati, scaduto nel 2021. Alcuni spettacoli potrebbero saltare.",
+   "src": [
+    "cgilBergamoTeatri",
+    "ansaTeatri"
+   ],
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "gsa-a1",
@@ -1118,7 +1336,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "air-campania",
@@ -1144,7 +1362,7 @@
     "mit",
     "qfAir"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "trenitalia-er",
@@ -1169,7 +1387,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "la-lucente-bologna",
@@ -1194,7 +1412,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "generale-30-ottobre",
@@ -1211,17 +1429,19 @@
    "end": "2026-10-30T23:59:00+01:00",
    "hours": "Tutta la giornata di venerdì 30. Treni fermi dalle 21 di giovedì 29 alle 20:59 di venerdì; autostrade dalle 22 di giovedì.",
    "note": "Per i treni regionali valgono le fasce di garanzia dei giorni feriali, dalle 6 alle 9 e dalle 18 alle 21. La Commissione di garanzia ha chiesto di escludere i trasporti, perché il 30 cade nel periodo di franchigia dei Santi. Il 15 ottobre Usb ha confermato lo sciopero anche nei trasporti: prima di partire controlla gli avvisi delle aziende.",
-   "who": "Usb; Usi-Cit con una proclamazione separata",
+   "who": "Usb; con proclamazioni separate Usi-Cit, Adl Cobas, Clap, Sial Cobas, Cobas e Unicobas",
    "proclaimed": "2026-10-06",
-   "summary": "Venerdì 30 si sommano due scioperi generali. Usb ferma tutti i settori pubblici e privati, treni compresi, e lo lega alla giornata internazionale di lotta dei portuali contro la guerra e il riarmo, con manifestazioni annunciate in tutte le città. Usi-Cit sciopera contro la guerra e le spese militari, scuola compresa, ma lascia fuori aerei, treni, bus e navi.",
+   "summary": "Venerdì 30 si sommano più scioperi generali. Usb ferma tutti i settori pubblici e privati, treni compresi, e lo lega alla giornata internazionale di lotta dei portuali contro la guerra e il riarmo, con manifestazioni annunciate in tutte le città. Usi-Cit sciopera contro la guerra e le spese militari, scuola compresa, ma lascia fuori aerei, treni, bus e navi. Il 20 ottobre si sono aggiunti Adl Cobas, Clap, Sial Cobas e Cobas, dalle 0:01 alle 23:59, e Unicobas, che ha spostato qui lo sciopero previsto il 4 dicembre.",
    "src": [
     "mit",
     "usbPorti",
     "nazioneLivorno",
     "sky",
-    "usbTrasporti30"
+    "usbTrasporti30",
+    "orizzonteUnicobas",
+    "qnMappa"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "aeroporto-firenze-30",
@@ -1246,7 +1466,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "aeroporto-pisa-30",
@@ -1271,7 +1491,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "porti-usb-30",
@@ -1293,7 +1513,32 @@
     "mit",
     "marittimiNavi"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
+  },
+  {
+   "id": "corteo-torino-30",
+   "title": "Corteo Usb a Torino",
+   "kicker": "Sciopero e presidio",
+   "group": "cortei",
+   "mode": "corteo",
+   "modeLabel": "Corteo",
+   "scope": "Regionale",
+   "place": "Torino, piazza Palazzo di Città",
+   "lat": 45.0731,
+   "lon": 7.6814,
+   "regions": [
+    "Piemonte"
+   ],
+   "start": "2026-10-30T09:30:00+01:00",
+   "end": "2026-10-30T13:00:00+01:00",
+   "hours": "Ritrovo alle 9:30 in piazza Palazzo di Città",
+   "note": "L'orario di fine è indicativo: gli organizzatori non lo hanno comunicato.",
+   "who": "Usb Piemonte",
+   "summary": "Manifestazione regionale dell'Usb a Torino nel giorno dello sciopero generale del 30 ottobre. Da Cuneo e da altre città sono organizzati trasferimenti.",
+   "src": [
+    "targatoUsb30"
+   ],
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "enav-bari",
@@ -1318,7 +1563,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "sbb-cargo-10-novembre",
@@ -1339,7 +1584,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "atm-milano-13-novembre",
@@ -1364,7 +1609,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "atvo",
@@ -1389,7 +1634,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "amtab-bari-14-novembre",
@@ -1414,7 +1659,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "anm-napoli",
@@ -1439,7 +1684,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00",
+   "checked": "2026-10-21T06:58:00+02:00",
    "note": "Il prospetto ministeriale ora indica lunedì 16 novembre, non più il 16 dicembre."
   },
   {
@@ -1464,7 +1709,7 @@
     "cgilModena20",
     "tecnicaScuola20"
    ],
-   "checked": "2026-10-20T06:58:00+02:00",
+   "checked": "2026-10-21T06:58:00+02:00",
    "proclaimed": "2026-10-19"
   },
   {
@@ -1486,7 +1731,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "enav-nazionale",
@@ -1507,7 +1752,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "sicuritalia-venezia",
@@ -1532,7 +1777,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "enav-malpensa",
@@ -1557,7 +1802,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "generale-4-dicembre",
@@ -1573,15 +1818,16 @@
    "start": "2026-12-03T21:00:00+01:00",
    "end": "2026-12-04T23:59:00+01:00",
    "hours": "Tutta la giornata di venerdì 4. Treni dalle 21 di giovedì 3 alle 21 di venerdì; autostrade dalle 22 alle 22; bus e metro con modalità decise città per città.",
-   "note": "Per i treni regionali valgono le fasce di garanzia dei giorni feriali, dalle 6 alle 9 e dalle 18 alle 21. Per i vigili del fuoco lo sciopero dura 4 ore: dalle 9 alle 13 per il personale turnista.",
+   "note": "Per i treni regionali valgono le fasce di garanzia dei giorni feriali, dalle 6 alle 9 e dalle 18 alle 21. Per i vigili del fuoco lo sciopero dura 4 ore: dalle 9 alle 13 per il personale turnista. Unicobas ha annunciato di spostare la sua adesione allo sciopero del 30 ottobre.",
    "who": "Cub, Adl Varese, Sgb, Cib-Unicobas, Sbm, Sgc, Si Cobas; aderiscono Al Cobas e Lmo",
    "proclaimed": "2026-09-27",
    "summary": "I sindacati di base proclamano uno sciopero generale di tutte le categorie, pubbliche e private, per l'intera giornata.",
    "src": [
     "mit",
-    "orizzonte4dic"
+    "orizzonte4dic",
+    "orizzonteUnicobas"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "aviation-roma",
@@ -1606,7 +1852,7 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   },
   {
    "id": "enav-bologna",
@@ -1631,8 +1877,8 @@
    "src": [
     "mit"
    ],
-   "checked": "2026-10-20T06:58:00+02:00"
+   "checked": "2026-10-21T06:58:00+02:00"
   }
  ],
- "reportEmail": "segnalazioni@esempio.it"
+ "reportEmail": "assistenza@scioperioggi.com"
 }

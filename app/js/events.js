@@ -15,7 +15,8 @@ export function initEvents(DATA) {
     ev.pt = (e.lat != null && e.lon != null) ? project(e.lon, e.lat) : null;
     return ev;
   });
-  D.byId = {}; D.events.forEach((e) => { D.byId[e.id] = e; });
+  // Senza prototipo: un link come #constructor non trova niente invece di dare errore.
+  D.byId = Object.create(null); D.events.forEach((e) => { D.byId[e.id] = e; });
 }
 
 // Un colore per tipo: treni, bus, aerei, porti, scuola e servizi, merci, sciopero generale, cortei.
