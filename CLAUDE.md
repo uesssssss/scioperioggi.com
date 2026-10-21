@@ -167,7 +167,7 @@ esbuild e i moduli d3 (`d3-zoom`, `d3-selection`, `d3-transition`, `d3-ease`) ve
 
 ## 9. Da fare (in ordine di priorità)
 
-1. **Email del progetto** per le segnalazioni: messa (`scioperioggi@gmail.com`). Controllare che l'account sia davvero nostro e accessibile.
+1. **Email del progetto** per le segnalazioni: messa (`assistenza@scioperioggi.com`, inoltra a una casella gestita dal fondatore). Controllare ogni tanto che l'inoltro funzioni: scrivere un messaggio di prova.
 2. **HTTPS:** spuntare "Enforce HTTPS" su GitHub → Settings → Pages appena possibile.
 2b. **Sicurezza dell'account:** 2FA o passkey su GitHub; token dell'aggiornamento automatico limitato a questo solo repository; attivare Dependabot (Settings → Code security).
 3. **Segnalazioni con approvazione** (al posto dell'email): modulo che salva, qualcuno approva, l'evento compare. Più avanti foto con volti sfocati.
