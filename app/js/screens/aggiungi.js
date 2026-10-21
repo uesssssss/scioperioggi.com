@@ -42,7 +42,7 @@ export function renderSegnala() {
       '\nQuando: ' + day + (v('r-time') ? ', alle ' + v('r-time') : '') +
       '\nDove: ' + (v('r-place') ? v('r-place') + ', ' : '') + v('r-city') +
       (v('r-src') ? '\nFonte: ' + v('r-src') : '') + (v('r-note') ? '\nNote: ' + v('r-note') : '') + '\n\nGrazie.';
-    const to = D.DATA.reportEmail || 'segnalazioni@esempio.it';
+    const to = D.DATA.reportEmail || 'scioperioggi@gmail.com';
     const subject = 'Nuova segnalazione: ' + v('r-what') + ' (' + v('r-city') + ')';
     $('#r-out').innerHTML = '<div class="preview"><pre id="r-text">' + esc(text) + '</pre>' +
       '<a class="mainbtn" href="mailto:' + esc(to) + '?subject=' + encodeURIComponent(subject) + '&amp;body=' + encodeURIComponent(text) + '">Invia per email</a>' +
