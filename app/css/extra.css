@@ -13,3 +13,4 @@
 .done h2{margin:0;font:700 24px/1.1 var(--font-display)}
 .done p{margin:0 0 6px;color:var(--ink-2);font-size:15px}
 a.softbtn{text-decoration:none;color:var(--ink)}
+.veil{display:none}

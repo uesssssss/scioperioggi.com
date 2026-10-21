@@ -33,6 +33,8 @@ export function openPicker() {
 export function initCity() {
   SORTED = CITIES.slice().sort((a, b) => a.name.localeCompare(b.name, 'it'));
   $('#picker-close').addEventListener('click', () => { $('#picker').hidden = true; });
+  // Sul computer, un clic fuori dalla finestra la chiude (solo se una città è già scelta).
+  const veil = $('.veil'); if (veil) veil.addEventListener('click', () => { if (S.city && $('#welcome').hidden) $('#picker').hidden = true; });
   $('#city-search').addEventListener('input', (e) => fillCities(e.target.value));
   $('#citylist').addEventListener('click', (e) => { const b = e.target.closest('[data-city]'); if (b) setCity(findCity(b.dataset.city)); });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && S.city && !$('#picker').hidden) $('#picker').hidden = true; });
