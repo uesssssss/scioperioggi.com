@@ -9,8 +9,8 @@
 .field label .opt{font-weight:500;color:var(--ink-3)}
 .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 .mainbtn:disabled{opacity:.6;cursor:wait}
-.done{display:flex;flex-direction:column;gap:8px;align-items:flex-start;padding:20px 18px;border-radius:22px;background:var(--paper-2)}
-.done h2{margin:0;font:700 24px/1.1 var(--font-display)}
-.done p{margin:0 0 6px;color:var(--ink-2);font-size:15px}
+.sent{display:flex;flex-direction:column;gap:8px;align-items:flex-start;padding:20px 18px;border-radius:22px;background:var(--paper-2)}
+.sent h2{margin:0;font:700 24px/1.1 var(--font-display)}
+.sent p{margin:0 0 6px;color:var(--ink-2);font-size:15px}
 a.softbtn{text-decoration:none;color:var(--ink)}
 .veil{display:none}

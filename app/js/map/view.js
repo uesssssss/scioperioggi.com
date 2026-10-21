@@ -65,15 +65,26 @@ function updateScale() {
 export function render() {
   draw();
   const T = S.T;
-  for (const c of S.clusters) c.el.style.transform = 'translate(' + (T.x + T.k * c.pt[0]).toFixed(1) + 'px,' + (T.y + T.k * c.pt[1]).toFixed(1) + 'px)';
+  for (const c of S.clusters) c.el.style.transform = 'translate(' + (T.x + T.k * c.pt[0] + (c.dx || 0)).toFixed(1) + 'px,' + (T.y + T.k * c.pt[1] + (c.dy || 0)).toFixed(1) + 'px)';
   updateScale();
+}
+// L'Italia resta sempre almeno in parte dentro lo spazio libero: il suo riquadro deve
+// coprire la parte centrale della mappa, così non si finisce mai su uno schermo vuoto.
+function keepItaly(t) {
+  const r = freeRect(), b = ITALY;
+  const x0 = t.x + t.k * b[0], x1 = t.x + t.k * b[2], y0 = t.y + t.k * b[1], y1 = t.y + t.k * b[3];
+  const minX = r.x + r.w * 0.35, maxX = r.x + r.w * 0.65, minY = r.y + r.h * 0.35, maxY = r.y + r.h * 0.65;
+  let dx = 0, dy = 0;
+  if (x1 < minX) dx = minX - x1; else if (x0 > maxX) dx = maxX - x0;
+  if (y1 < minY) dy = minY - y1; else if (y0 > maxY) dy = maxY - y0;
+  return dx || dy ? zoomIdentity.translate(t.x + dx, t.y + dy).scale(t.k) : t;
 }
 export function initZoom() {
   const T0 = fitT(ITALY, 8);
   S.kFit = T0.k;
   S.zoom = d3zoom()
     .scaleExtent([S.kFit * 0.98, S.kFit * 10])
-    .translateExtent([[-D.GEO.w * 4, -D.GEO.h * 3], [D.GEO.w * 5, D.GEO.h * 4]])
+    .constrain(keepItaly)
     .on('start', () => { clearTimeout(reTimer); document.body.classList.add('moving'); })
     .on('zoom', (e) => { S.T = e.transform; if (e.sourceEvent) { S.touched = true; S.movedByUser = true; } render(); })
     .on('end', () => {

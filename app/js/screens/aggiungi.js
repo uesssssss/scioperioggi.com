@@ -70,7 +70,7 @@ function send(text, subject, mail, bot) {
       btn.disabled = false; btn.textContent = 'Invia la segnalazione';
       if (ok) {
         form.hidden = true;
-        out.innerHTML = '<div class="done"><h2>Segnalazione inviata.</h2><p>Grazie. La controlliamo e, se è confermata, compare sulla mappa' + (mail ? '. Se serve, ti scriviamo all’indirizzo che hai lasciato.' : '.') + '</p>' +
+        out.innerHTML = '<div class="sent"><h2>Segnalazione inviata.</h2><p>Grazie. La controlliamo e, se è confermata, compare sulla mappa' + (mail ? '. Se serve, ti scriviamo all’indirizzo che hai lasciato.' : '.') + '</p>' +
           '<button class="softbtn" type="button" id="r-again">Segnala un altro evento</button></div>';
         $('#r-again').addEventListener('click', () => { form.reset(); form.hidden = false; out.innerHTML = ''; $('#r-other').closest('.field').classList.add('is-hidden'); $('#r-what').focus(); });
       } else {
