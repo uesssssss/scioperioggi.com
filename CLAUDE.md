@@ -14,8 +14,8 @@ Una web app gratuita che mostra **scioperi e manifestazioni in Italia**, città 
 - **Tono:** neutrale e fattuale. Non è un sito militante: deve servire anche a chi in piazza non andrebbe mai. Niente commenti politici, niente slogan, niente motivazioni inventate.
 - **Voce dei testi:** a metà tra una persona e un tabellone delle partenze. Frasi brevi, parole semplici, niente testo che sembri scritto da un'AI ("Scopri", "Il tuo compagno ideale", punti esclamativi...).
 - **Soldi:** gratis, senza pubblicità. In futuro, se cresce, solo donazioni.
-- **Privacy:** niente account, niente cookie, niente statistiche, nessuna risorsa caricata da altri siti. Non si chiede l'email a nessuno.
-- **Chiunque può segnalare** un corteo o uno sciopero dalla scheda Aggiungi (per ora prepara un'email; le segnalazioni vengono controllate a mano prima di comparire).
+- **Privacy:** niente account, niente cookie, niente statistiche, nessuna risorsa caricata da altri siti. Non si chiede l'email a nessuno (nel modulo Aggiungi è facoltativa). Unica eccezione: il modulo Aggiungi si collega a Web3Forms solo al momento dell'invio.
+- **Chiunque può segnalare** un corteo o uno sciopero dalla scheda Aggiungi: il modulo viene inviato con Web3Forms (chiave pubblica in `app/js/screens/aggiungi.js`, CSP aperta solo a `api.web3forms.com`) e arriva come email ad assistenza@scioperioggi.com. Se l'invio non riesce, compaiono "Apri la posta", "Scrivi da Gmail" e "Copia il testo". Le segnalazioni vengono controllate a mano prima di comparire.
 
 Concorrenza nota: mappadellarivolta.org (stessa idea, tono militante, parla a chi organizza). La nostra differenza è il punto di vista di chi deve spostarsi. Non si copiano né il loro design né i loro dati.
 
@@ -25,7 +25,7 @@ Concorrenza nota: mappadellarivolta.org (stessa idea, tono militante, parla a ch
 - **Oggi**: città scelta in alto, striscia dei prossimi 7 giorni con pallini colorati, sotto le carte del giorno scelto impilate (toccando una carta dietro, passa davanti con un'animazione). Poi "Più avanti" (eventi oltre la settimana) e "In piazza vicino a te" (cortei entro 60 km).
 - **Mappa**: Italia con confini regionali, segnaposti colorati per tipo, raggruppati quando sono vicini. In basso la striscia degli scioperi nazionali. Toccando un evento si apre la scheda di dettaglio (locandina, articoli di fonte, orari, chi lo proclama).
 - **Calendario**: "La mia città" (solo eventi locali, senza i nazionali) oppure "Tutta Italia".
-- **Aggiungi**: modulo che prepara un'email di segnalazione.
+- **Aggiungi**: modulo di segnalazione, inviato direttamente dal sito con conferma "Segnalazione inviata".
 
 **Primo avvio**: due schermate di benvenuto ("Scioperi e cortei, vicino a te." · "Ogni sciopero ha il suo colore.") e poi "Di dove sei?" con la scelta della città e del tema chiaro/scuro.
 

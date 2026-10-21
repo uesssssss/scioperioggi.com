@@ -75,11 +75,18 @@ const result = await esbuild.build({
   entryPoints: [join(ROOT, "app/js/main.js")],
   bundle: true, minify: true, format: "iife",
   nodePaths: NODE_PATHS, write: false, outdir: join(ROOT, "assets"),
-  entryNames: single ? "app" : "app-[hash]", assetNames: "[name]-[hash]",
+  entryNames: "app", assetNames: "[name]",
   loader: { ".woff": single ? "dataurl" : "file" },
   legalComments: "none", metafile: true,
 });
-const files = Object.fromEntries(result.outputFiles.map((f) => [f.path.slice(join(ROOT, "assets").length + 1), f]));
+// Nomi con l'impronta del contenuto (non quella di esbuild, che cambia da un computer all'altro):
+// stessi sorgenti, stessi nomi, ovunque si costruisca.
+const { createHash } = await import("node:crypto");
+const files = Object.fromEntries(result.outputFiles.map((f) => {
+  let n = f.path.slice(join(ROOT, "assets").length + 1);
+  if (!single && /^app\.(js|css)$/.test(n)) n = n.replace("app.", "app-" + createHash("sha256").update(f.contents).digest("hex").slice(0, 10) + ".");
+  return [n, f];
+}));
 const jsName = Object.keys(files).find((n) => n.endsWith(".js"));
 const cssName = Object.keys(files).find((n) => n.endsWith(".css"));
 const safeJSON = (o) => JSON.stringify(o).replace(/</g, "\\u003c");
