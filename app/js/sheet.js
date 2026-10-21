@@ -63,7 +63,7 @@ function poster(ev) {
     '<span class="k">' + esc(ev.kicker) + '</span>' +
     '<span class="d"><b class="' + (multi ? 'multi' : '') + '">' + (multi ? A.d + '–' + B.d : A.d) + '</b><span>' + MON3[(multi ? B : A).m - 1] + '</span></span>' +
     '<span class="f"><span class="pl">' + esc(ev.national ? 'Tutta Italia' : ev.place) + '</span><span>' + esc(cap(fWd.format(noon(a)))) + '</span></span>' +
-    '<svg class="bigicon" aria-hidden="true"><use href="#i-' + ev.mode + '"/></svg></div>';
+    '<svg class="bigicon" aria-hidden="true"><use href="#i-' + esc(ev.mode) + '"/></svg></div>';
 }
 function srcCard(s) {
   let host = '';

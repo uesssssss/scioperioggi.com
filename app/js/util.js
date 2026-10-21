@@ -4,7 +4,7 @@ export const $$ = (s) => Array.prototype.slice.call(document.querySelectorAll(s)
 export function esc(s) {
   return String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
-export function icon(name) { return '<svg aria-hidden="true"><use href="#' + name + '"/></svg>'; }
+export function icon(name) { return '<svg aria-hidden="true"><use href="#' + esc(name) + '"/></svg>'; }
 const mm = (q) => (window.matchMedia ? matchMedia(q) : { matches: false, addEventListener() {} });
 export const reduceMotion = !!mm('(prefers-reduced-motion: reduce)').matches;
 export const mqWide = mm('(min-width: 860px)');

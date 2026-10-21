@@ -20,8 +20,47 @@ const read = (p) => readFileSync(join(ROOT, p), "utf8");
 const geo = JSON.parse(read("tools/geo-source.json"));
 const data = JSON.parse(read("data/events.json"));
 const names = new Set(geo.regions.map((r) => r.name));
+
+// Valori ammessi e lunghezze massime: i dati arrivano anche da un aggiornamento automatico, quindi si controllano qui.
+const MODES = new Set(["generale", "bus", "treno", "aereo", "nave", "strada", "camion", "scuola", "fuoco", "corteo"]);
+const GROUPS = new Set(["generale", "trasporti", "servizi", "merci", "cortei"]);
+const SCOPES = new Set(["Nazionale", "Regionale", "Territoriale", "Provinciale", "Interregionale", "Locale", "Aeroporto", "Cittadino"]);
+const MAXLEN = { id: 80, title: 120, kicker: 40, modeLabel: 60, place: 120, hours: 400, who: 300, note: 500, summary: 700, day: 10, proclaimed: 10, checked: 40 };
+const fail = (where, msg) => { throw new Error(`${where}: ${msg}`); };
+const checkText = (where, k, v, max) => {
+  if (typeof v !== "string") fail(where, `${k} non è un testo`);
+  if (/[<>]/.test(v)) fail(where, `${k} contiene < o >`);
+  if (v.length > max) fail(where, `${k} troppo lungo (${v.length} > ${max})`);
+};
+const checkUrl = (where, v) => {
+  let u;
+  try { u = new URL(v); } catch (x) { fail(where, `URL non valido ${v}`); }
+  if (u.protocol !== "https:") fail(where, `l'URL deve essere https: ${v}`);
+  if (!u.hostname || u.username || u.password) fail(where, `URL non ammesso ${v}`);
+  if (v.length > 500) fail(where, "URL troppo lungo");
+};
+
+if (typeof data.shareUrl === "string") checkUrl("shareUrl", data.shareUrl);
+if (typeof data.reportEmail !== "string" || !/^[^\s@<>"',;?&]+@[^\s@<>"',;?&]+\.[a-z]{2,}$/i.test(data.reportEmail)) fail("reportEmail", "indirizzo non valido");
+if (/@esempio\.it$/i.test(data.reportEmail)) console.warn("ATTENZIONE: reportEmail è ancora un indirizzo di prova (" + data.reportEmail + "): le segnalazioni degli utenti andrebbero a un dominio che non è nostro.");
+for (const [key, s] of Object.entries(data.sources)) {
+  const w = `fonte ${key}`;
+  for (const k of ["pub", "kind", "label", "url"]) if (!s[k]) fail(w, `manca ${k}`);
+  for (const k of ["pub", "kind"]) checkText(w, k, s[k], 80);
+  checkText(w, "label", s.label, 200);
+  checkUrl(w, s.url);
+}
+
+const seen = new Set();
 for (const e of data.events) {
   for (const k of ["id", "title", "kicker", "group", "mode", "modeLabel", "scope", "place", "start", "end", "hours", "who", "summary"]) if (!e[k]) throw new Error(`${e.id}: manca ${k}`);
+  if (!/^[a-z0-9][a-z0-9-]{0,79}$/.test(e.id)) fail(e.id, "id non valido (solo minuscole, numeri e trattini)");
+  if (seen.has(e.id)) fail(e.id, "id duplicato");
+  seen.add(e.id);
+  if (!MODES.has(e.mode)) fail(e.id, `mode sconosciuto ${e.mode}`);
+  if (!GROUPS.has(e.group)) fail(e.id, `group sconosciuto ${e.group}`);
+  if (!SCOPES.has(e.scope)) fail(e.id, `scope sconosciuto ${e.scope}`);
+  for (const [k, max] of Object.entries(MAXLEN)) if (e[k] != null) checkText(e.id, k, e[k], max);
   if (Number.isNaN(Date.parse(e.start)) || Number.isNaN(Date.parse(e.end))) throw new Error(`${e.id}: data non valida`);
   if (Date.parse(e.end) < Date.parse(e.start)) throw new Error(`${e.id}: finisce prima di iniziare`);
   if (e.regions !== "all" && (!Array.isArray(e.regions) || e.regions.some((r) => !names.has(r)))) throw new Error(`${e.id}: regione sconosciuta ${e.regions}`);
